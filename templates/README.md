@@ -1,4 +1,4 @@
 # テンプレート
 
-* [ゼミノート](/templates/seminar-note.md)
-* [文献レビューノート](/templates/review-note.md)
+* [ゼミノート](seminar-note.md)
+* [文献レビューノート](review-note.md)
