@@ -1,8 +1,8 @@
 # ナレッジベース
 
-## 目次
+[English version](https://joholabhq.gitbook.io/docs/v/en/)
 
-[English Version](https://joholabhq.gitbook.io/docs/v/en/)
+## 目次
 
 * [オンボーディング](onboarding/README.md)
 * [研究スキル](research/README.md)
