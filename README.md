@@ -8,6 +8,3 @@
 * [チェックリスト](check/README.md)
 * [テンプレート](templates/README.md)
 * [よくある質問](faq/README.md)
-
-<!-- Smallchat script -->
-<script src="https://embed.small.chat/TRSLG8TKKGRVEGUR2P.js" async></script>

@@ -1,0 +1,10 @@
+{
+    "plugins": ["scripts"],
+    "pluginsConfig": {
+        "scripts": {
+            "files": [
+                "https://embed.small.chat/TRSLG8TKKGRVEGUR2P.js"
+            ]
+        }
+    }
+}
