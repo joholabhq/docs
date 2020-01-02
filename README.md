@@ -1,7 +1,5 @@
 # ナレッジベース
 
-[English version](https://joholabhq.gitbook.io/docs/v/en/)
-
 ## 目次
 
 * [オンボーディング](onboarding/README.md)
