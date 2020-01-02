@@ -1,5 +1,5 @@
 # チェックリスト
 
-* [トップリスト](./top.md)
-* [ゼミ](./seminar.md)
-* [プレゼンテーション](./presentation.md)
+* [トップリスト](top.md)
+* [ゼミ](seminar.md)
+* [プレゼンテーション](presentation.md)
