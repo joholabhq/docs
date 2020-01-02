@@ -2,18 +2,11 @@
 
 * [ナレッジベース](README.md)
 
-## オンボーディング <a id="onboarding"></a>
+## 目次
 
-* [研究室の始め方](onboarding/gettingstarted.md)
-
-## テンプレート <a id="templates"></a>
-
-* [ゼミノート](templates/seminar-note.md)
-* [文献レビューノート](templates/review-note.md)
-
-## チェックリスト <a id="check"></a>
-
-* [トップリスト](check/top.md)
-* [ゼミ](check/seminar.md)
-* [プレゼンテーション](check/presentation.md)
-
+* [オンボーディング](onboarding/README.md)
+* [研究スキル](research/README.md)
+* [開発スキル](dev/README.md)
+* [チェックリスト](check/README.md)
+* [テンプレート](templates/README.md)
+* [よくある質問](faq/README.md)
