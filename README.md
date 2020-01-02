@@ -2,6 +2,8 @@
 
 ## 目次
 
+[English Version](https://joholabhq.gitbook.io/docs/v/en/)
+
 * [オンボーディング](onboarding/README.md)
 * [研究スキル](research/README.md)
 * [開発スキル](dev/README.md)
