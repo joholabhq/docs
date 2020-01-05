@@ -29,3 +29,4 @@
 
 * [IMEオンオフのショートカットキー設定](pc-ime-shortcut.md)
 * （任意）[CapsLockキーをCtrlキーとして使う](pc-capslock.md)
+* [PCのディスクを暗号化する](pc-bitlocker.md)
