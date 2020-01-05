@@ -6,5 +6,7 @@
 
 ## 手順
 
-- （任意）[Microsoft Edgeのサーチエンジン変更](pc-advanced-edge.md) 
+- （任意）[Microsoft Edgeの設定](pc-advanced-edge.md) 
+  - サーチエンジン変更
+  - Adobe Flash Playerをオフ
 - （任意）[タスクバーの設定](pc-advanced-taskbar.md)
