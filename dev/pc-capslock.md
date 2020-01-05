@@ -47,4 +47,4 @@
 - `OK`
 - PCを再起動する
 - `CapsLockキー`と`スペースキー`でIMEの切り替えができている（＝`CapsLockキー`を`Ctrlキー`として使っている）ことを確認
-- `Ctrolキー`を押して、CapsLockがかかる（`CapsLockキー`に明かりがつく）ことを確認
+- `Ctrlキー`を押して、CapsLockがかかる（`CapsLockキー`に明かりがつく）ことを確認
