@@ -12,3 +12,4 @@
   - Next > I Agree > All Users
   - :warning: Destination Folder: C:\Anaconda3
 - Install
+- Next > Next > Next > Finish
