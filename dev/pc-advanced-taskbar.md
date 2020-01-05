@@ -19,4 +19,4 @@
 
 |ピン留め|ピン留めから外す|
 |:---|:---|
-|Microsoft Edge, エクスプローラー, Windows PowerShell (x86), Visual Studio Code, Chrome, Terminus, ...|Cortana, タスクビュー, Microsoft Store|
+|Microsoft Edge, エクスプローラー, Windows PowerShell (x86), Visual Studio Code, Chrome, Termius, ...|Cortana, タスクビュー, Microsoft Store|
