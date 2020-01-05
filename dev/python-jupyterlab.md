@@ -3,7 +3,7 @@
 ## 起動
 
 - [Anacondaをインストールする](pc-anaconda.md)
-- `スタート` > `Anaconda3 (64-bit)` > `Anaconda Prompt (Anaconda 3)`を選択
+- `スタート` > `Anaconda3 (64-bit)` > `Anaconda Powershell Prompt (Anaconda 3)`を選択
 - 端末が表示されたら、以下のコマンドを実行
 
 ```
@@ -20,7 +20,7 @@
 ## 拡張機能の追加
 
 - JupyterLabを停止する
-- `Anaconda Prompt (Anaconda 3)`の端末で以下のコマンドを実行
+- `Anaconda Powershell Prompt (Anaconda 3)`の端末で以下のコマンドを実行
 
 ```
 (base) C:\Users\アカウント名> conda install nodejs
