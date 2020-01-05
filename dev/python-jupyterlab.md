@@ -10,8 +10,8 @@
 (base) C:\Users\アカウント名> jupyter lab
 ```
 
-- 端末に表示される`http://localhost:8888/?token=......`の行を選択、`Enterキー`
-- ブラウザのアドレスバーにコピペして、`JupyterLab`にアクセス
+- 端末に表示される`http://localhost:8888/?token=......`の行を選択、`Enterキー`（コピーされる）
+- ブラウザのアドレスバーにペーストして、`JupyterLab`にアクセス
 
 ## 停止
 
