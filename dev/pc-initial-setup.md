@@ -3,7 +3,8 @@
 ## 所要時間
 
 * 手順1：30分
-* 手順2：
+* 手順2：45分
+* 手順3：
 
 ## 手順 1
 
@@ -31,3 +32,7 @@
 * [IMEオンオフのショートカットキー設定](pc-ime-shortcut.md)
 * （任意）[CapsLockキーをCtrlキーとして使う](pc-capslock.md)
 * [PCのディスクを暗号化する](pc-bitlocker.md)
+
+## 手順 3
+
+* [必須アプリのインストール](pc-essential-apps.md)
