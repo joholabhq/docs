@@ -6,4 +6,8 @@
 
 ## 手順
 
+:bulb: ダウンロード → 実行でインストールできるアプリに関しては、リンクのみ
+
 - [Microsoft Office](pc-office.md)
+- [Visual Studio Code](pc-vscode.md)
+- [Google Chrome](https://www.google.com/chrome/)
