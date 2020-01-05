@@ -4,7 +4,7 @@
 
 * 研究室の文化について
 * [研究室への配属が決まったら](getting-started.md)
-* [PCの初期設定](../dev/pc-initial-setup.md)
+* [研究室PCの初期設定](../dev/pc-initial-setup.md)
 
 ## チェックリスト
 
