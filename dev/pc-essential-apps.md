@@ -10,4 +10,5 @@
 
 - [Microsoft Office](pc-office.md)
 - [Visual Studio Code](pc-vscode.md)
+- [Git for Windows](pc-git.md)
 - [Google Chrome](https://www.google.com/chrome/)
