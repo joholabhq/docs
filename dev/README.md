@@ -7,3 +7,8 @@
 * [PCの初期設定](pc-initial-setup.md)
 * [PCの詳細設定](pc-advanced-settings.md)
 * [PCの初期化](pc-reset.md)
+
+## PythonとJupyter Lab
+
+* [Anacondaのインストール](pc-anaconda.md)
+* [Jupyter Labの使い方](python-jupyterlab.md)
