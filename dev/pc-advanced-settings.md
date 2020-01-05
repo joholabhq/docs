@@ -6,4 +6,4 @@
 
 ## 手順
 
-- [タスクバーの設定](pc-advanced-taskbar.md)
+- （任意）[タスクバーの設定](pc-advanced-taskbar.md)
