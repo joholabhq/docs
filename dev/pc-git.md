@@ -21,5 +21,5 @@
 ```
 $ git config --global user.name "sNNNNNNN" # 統一認証のユーザ名
 $ git config --global user.email "sNNNNNNN@u.tsukuba.ac.jp" # @uのメールアドレス
-
+$ exit
 ```
