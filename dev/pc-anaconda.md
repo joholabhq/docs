@@ -2,7 +2,7 @@
 
 ## 所要時間
 
-- 10分
+- 15分
 
 ## インストール
 
@@ -11,4 +11,4 @@
 - セットアップ画面が起動したら、以下の設定をおこなう
   - Next > I Agree > All Users
   - Destination Folder: C:\Anaconda3
-  - Install
+- Install
