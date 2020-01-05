@@ -1,7 +1,7 @@
-# SynologyDrive
+# Synology Drive
 
-- :bulb: PC上の研究に関連するファイルやフォルダはすべて、SynologyDriveが作成するフォルダに保存し、それ以外の場所には置かないようにしてください
-- `SynologyDrive`フォルダは、DropboxやOneDriveのように自動的に研究室サーバと双方向同期します
+- :warning: PC上の研究に関連するファイルやフォルダはすべて、`Synology Drive`が作成するフォルダに保存し、それ以外の場所には置かないようにしてください
+- `Synology Drive`フォルダは、DropboxやOneDriveのように自動的に研究室サーバと双方向同期します
 
 ## 所要時間
 
