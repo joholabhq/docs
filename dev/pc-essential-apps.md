@@ -13,4 +13,4 @@
 - [Git for Windows](pc-git.md) GitLab/GitHub
 - [Google Chrome](https://www.google.com/chrome/) ブラウザ
 - [Termius](pc-termius.md) SSHクライアント
-- [SynologyDrive](pc-synologydrive.md) ホームフォルダ同期
+- [Synology Drive](pc-synologydrive.md) ホームフォルダ同期
