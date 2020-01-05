@@ -10,5 +10,5 @@
 - `Python 3.X version`の`Download`を選択 → 実行
 - セットアップ画面が起動したら、以下の設定をおこなう
   - Next > I Agree > All Users
-  - Destination Folder: C:\Anaconda3
+  - :warning: Destination Folder: C:\Anaconda3
 - Install
