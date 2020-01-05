@@ -8,9 +8,11 @@ PCの初期化は、必ず指導教員の確認を得た上で実施してくだ
 
 * https://support.microsoft.com/ja-jp/help/12415
 
-## 手順
+## 所要時間
 
-所要時間：1〜2時間
+* 1〜2時間
+
+## 手順
 
 * （BitLockerによる暗号化をしている場合）[BitLockerの回復キーを見つける](https://support.microsoft.com/ja-jp/help/4026181)
 * [スタート]  ボタンを選択し、[設定]  > [更新とセキュリティ]  > [回復]  の順に選択します
