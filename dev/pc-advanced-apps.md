@@ -10,6 +10,7 @@
 
 - [SoftEther VPN](http://campus-vpn.cc.tsukuba.ac.jp/ja/howto_softether.aspx#windows) 学外からのVPN接続
 - [Anaconda](pc-anaconda.md) Python実行環境（含 Jupyter Lab）
+- [Ruby](pc-ruby.md) Ruby実行環境
 - VitualBox + Vagrant 仮想マシン
 - R + RStudio 統計処理
 - SPSS 統計処理
