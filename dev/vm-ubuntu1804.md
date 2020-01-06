@@ -8,7 +8,7 @@
 
 ### 仮想マシンの作成
 - [ユーザフォルダ内作業エリアの作成](pc-workspace.md)
-- （1回目のみ）`Windows Powershell (x86)`を起動し、以下のコマンドを実行
+- `Windows Powershell (x86)`を起動し、以下のコマンドを実行
 ```
 PS C:\Users\アカウント名>cd Workspace
 PS C:\Users\アカウント名\Workspace>cd Local
@@ -21,13 +21,26 @@ PS C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804>vagrant box ad
 PS C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804>vagrant init bento/ubuntu-18.04
 PS C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804>code . # VSCodeの起動
 ```
-
-- （2回目以降）`Windows Powershell (x86)`を起動
-
+- 以下はVSCode上で作業
+  - 生成されている`Vagrantfile`の内容を[Vagrantfile.Ubuntu1804](vagrant/Vagrantfile.Ubuntu1804)で上書きする
+  - `Vagrant_provision.sh`というファイルを新規作成し、[Vagrant_provision.sh.Ubuntu1804](vagrant/Vagrant_provision.sh.Ubuntu1804)をで上書きする
 
 ### 仮想マシンの起動
 
+#### 方法１：VSCodeから起動（おすすめ）
+
+- VSCodeで`C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804`フォルダを開く
+- ターミナル > 新しいターミナル`
+- 以下のコマンドを実行
 ```
+PS C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804>vagrant up
+```
+
+#### 方法２：Windows PowerShellから起動
+
+- 仮想マシンを起動したいだけならば、方法２でも十分
+```
+PS C:\Users\アカウント名> cd Workspace\Local\Vagrant\Ubuntu1804
 PS C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804>vagrant up
 ...
 ```
@@ -44,7 +57,7 @@ PS C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804>vagrant up
 
 ### 仮想マシンの終了
 
-- 起動した端末で以下のコマンドを実行
+- 仮想マシンを起動した端末で以下のコマンドを実行
 ```
 PS C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804>vagrant halt
 ```
