@@ -3,7 +3,7 @@
 ## 所要時間
 
 * 手順1：30分
-* 手順2：45分
+* 手順2：1時間
 * 手順3：2時間
 * 手順4：任意
 
@@ -32,6 +32,7 @@
 
 * [IMEオンオフのショートカットキー設定](pc-ime-shortcut.md)
 * （任意）[CapsLockキーをCtrlキーとして使う](pc-capslock.md)
+* （ThinkPadの場合）[ドライバーのインストール](pc-drivers.md)
 * [PCのディスクを暗号化する](pc-bitlocker.md)
 
 ## 手順 3
