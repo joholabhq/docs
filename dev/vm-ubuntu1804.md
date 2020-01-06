@@ -45,7 +45,7 @@ PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant up
 
 - [Termiusをインストール](pc-termius.md)
 - 新しいホストを作成
-  - ホスト名：Ubuntu 18.04
+  - ホスト名：Ubuntu 18.04 LTS（例）
   - アドレス：192.168.10.33
   - ユーザ名：vagrant
   - パスワード：vagrant
