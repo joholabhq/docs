@@ -21,12 +21,21 @@
 
 ### Vagrantプラグインのインストール
 
-- `Windows Powershell (x86)`を起動
+- `Windows Powershell (x86)`を :warning: `管理者モード`で起動
 - 端末で以下のコマンドを実行
 ```
-PS C:\Users\アカウント名> vagrant plugin install vagrant-vbguest
+PS C:\WINDOWS\system32> vagrant plugin install vagrant-vbguest
 ```
 - 実行許可を求める表示が出たら、許可する
+
+### Vagrantプラグインのアンインストール
+
+:bulb: もし`vagrant-vbguest`をインストールした後に、`Vagrant failed to initialize at a very early stage`等のエラーメッセージがでるようなら、以下のコマンドを実行して、プラグインを削除する。
+
+```
+PS C:\WINDOWS\system32> vagrant plugin uninstall vagrant-vbguest
+```
+
 
 ### 仮想マシンの作成
 
