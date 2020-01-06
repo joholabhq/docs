@@ -31,32 +31,26 @@ PS C:\Users\アカウント名>cd C:\
 PS C:\>mkdir Vagrant
 PS C:\>cd Vagrant
 PS C:\Vagrant>mkdir .vagrant.d
+PS C:\Vagrant> [System.Environment]::SetEnvironmentVariable("VAGRANT_HOME", "C:\Vagrant\.vagrant.d", "User")
 PS C:\Vagrant>exit
-```
-
-- 続いて`Windows Powershell (x86)`を :warning: `管理者モード`で起動し、以下のコマンドを実行
-```
-PS C:\WINDOWS\system32> [System.Environment]::SetEnvironmentVariable("VAGRANT_HOME", "C:\Users\sNNNNNNN", "User")
-PS C:\WINDOWS\system32>exit
 ```
 - PCの再起動
 
 
 ### Vagrantプラグインのインストール
 
-- `Windows Powershell (x86)`を :warning: `管理者モード`で起動
-- 端末で以下のコマンドを実行
+- `Windows Powershell (x86)`を起動し、以下のコマンドを実行
 ```
-PS C:\WINDOWS\system32> vagrant plugin install vagrant-vbguest
+PS C:\Users\アカウント名> vagrant plugin install vagrant-vbguest
 ```
 - 実行許可を求める表示が出たら、許可する
 
 ### Vagrantプラグインのアンインストール
 
-:bulb: もし`vagrant-vbguest`をインストールした後に、`Vagrant failed to initialize at a very early stage`等のエラーメッセージがでるようなら、以下のコマンドを実行して、プラグインを削除する。
+- `vagrant-vbguest`の例
 
 ```
-PS C:\WINDOWS\system32> vagrant plugin uninstall vagrant-vbguest
+PS C:\Users\アカウント名> vagrant plugin uninstall vagrant-vbguest
 ```
 
 
