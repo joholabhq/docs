@@ -6,6 +6,24 @@
 
 ## 手順
 
+### フォルダの準備
+
+- Office365のアカウントでWindowsにログインすると、ホームフォルダが日本語になる場合があり、Vagrantが正常に作動しないので、以下の回避策をとる
+- 疑似ホームフォルダの作成
+  - `Windows Powershell (x86)`を起動し、以下のコマンドを実行（エクスプローラーで作業しても良い）
+  - `sNNNNNNN`は統一認証のユーザ名（半角英数）
+```
+PS C:\Users\アカウント名>cd C:\
+PS C:\>mkdir Home
+PS C:\>cd Home
+PS C:\Home>mkdir sNNNNNNN
+PS C:\Home>cd sNNNNNNN
+PS C:\Home\sNNNNNNN>mkdir .vagrant.d; mkdir .VirtualBox; mkdir "VirtualBox VMs"
+PS C:\Home\sNNNNNN>mkdir Workspace; cd Workspace
+PS C:\Home\sNNNNNNN\Workspace>mkdir Local; cd Local
+PS C:\Home\sNNNNNN\Workspace\Local>mkdir Vagrant
+```
+
 ### VirtualBoxのインストール
 
 :information_source: 2020/01/06時点で、VagrantはVirtualBox ver.6.0を必要としています。
@@ -15,6 +33,10 @@
 - ダウンロード → 実行
   - すべて次へ
   - :warning: このデバイスソフトウェアをインストールしますか？：インストール
+- スタート > Oracle VM VirtualBoxで起動
+- ファイル > 環境設定 > 一般 > デフォルトの仮想マシンフォルダー > ブルダウンメニュー > その他
+- 「フォルダの準備」で作成した`C:\Home\sNNNNNNN\VirtualBox VMs`を選択 > OK
+- アプリを終了
 
 ### Vagrantのインストール
 
@@ -24,15 +46,11 @@
 
 ### 環境変数の設定
 
-- `Vagrant`のホームを日本語を含まない場所に設定する
 - `Windows Powershell (x86)`を起動し、以下のコマンドを実行
 ```
-PS C:\Users\アカウント名>cd C:\
-PS C:\>mkdir Vagrant
-PS C:\>cd Vagrant
-PS C:\Vagrant>mkdir .vagrant.d
-PS C:\Vagrant> [System.Environment]::SetEnvironmentVariable("VAGRANT_HOME", "C:\Vagrant\.vagrant.d", "User")
-PS C:\Vagrant>exit
+PS C:\Users\アカウント名> [System.Environment]::SetEnvironmentVariable("VAGRANT_HOME", "C:\Home\sNNNNNNN\.vagrant.d", "User")
+PS C:Users\アカウント名> [System.Environment]::SetEnvironmentVariable("VBOX_USER_HOME", "C:\Home\sNNNNNNN\.VirtualBox", "User")
+PS C:\Users\アカウント名>exit
 ```
 - PCの再起動
 
