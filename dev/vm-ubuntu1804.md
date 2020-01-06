@@ -7,19 +7,15 @@
 ## 手順
 
 ### 仮想マシンの作成
-- [ユーザフォルダ内作業エリアの作成](pc-workspace.md)
+- [VirtualBoxとVagrantのインストール](pc-virtualbox-vagrant.md)
 - `Windows Powershell (x86)`を起動し、以下のコマンドを実行
 ```
-PS C:\Users\アカウント名>cd Workspace
-PS C:\Users\アカウント名\Workspace>cd Local
-PS C:\Users\アカウント名\Workspace\Local>mkdir Vagrant
-PS C:\Users\アカウント名\Workspace\Local>cd Vagrant
-PS C:\Users\アカウント名\Workspace\Local\Vagrant>mkdir Ubuntu1804
-PS C:\Users\アカウント名\Workspace\Local\Vagrant>cd Ubuntu1804
-PS C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804>vagrant box add bento/ubuntu-18.04
+PS C:\Users\アカウント名>cd C:\Home\sNNNNNNN\Workspace\Local\Vagrant
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant>mkdir Ubuntu1804; cd Ubuntu1804
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant box add bento/ubuntu-18.04
 ...
-PS C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804>vagrant init bento/ubuntu-18.04
-PS C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804>code . # VSCodeの起動
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant init bento-VAGRANTSLASH-ubuntu-18.04
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>code . # VSCodeの起動
 ```
 - 以下はVSCode上で作業
   - 生成されている`Vagrantfile`の内容を[Vagrantfile.ubuntu1804](vagrant/Vagrantfile.ubuntu1804)で上書きする
@@ -29,19 +25,19 @@ PS C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804>code . # VSCod
 
 #### 方法１：VSCodeから起動（おすすめ）
 
-- VSCodeで`C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804`フォルダを開く
-- ターミナル > 新しいターミナル`
+- VSCodeで`C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804`フォルダを開く
+- VSCodeの上部メニュー > ターミナル > 新しいターミナル`
 - 以下のコマンドを実行
 ```
-PS C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804>vagrant up
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant up
 ```
 
 #### 方法２：Windows PowerShellから起動
 
 - 仮想マシンを起動したいだけならば、方法２でも十分
 ```
-PS C:\Users\アカウント名> cd Workspace\Local\Vagrant\Ubuntu1804
-PS C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804>vagrant up
+PS C:\Users\アカウント名> cd C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant up
 ...
 ```
 
@@ -59,5 +55,5 @@ PS C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804>vagrant up
 
 - 仮想マシンを起動した端末で以下のコマンドを実行
 ```
-PS C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804>vagrant halt
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant halt
 ```
