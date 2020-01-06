@@ -1,0 +1,8 @@
+# Update package
+echo "Updating default packages ..."
+sudo apt update -y
+sudo apt upgrade -y
+
+# Install dev tools
+echo "Installing Development tools ..."
+sudo apt install -y build-essential
