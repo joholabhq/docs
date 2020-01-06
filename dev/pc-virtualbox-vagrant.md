@@ -47,7 +47,7 @@ PS C:\Home\sNNNNNNN\Workspace\Local>mkdir Vagrant
 - `Windows Powershell (x86)`を起動し、以下のコマンドを実行
 ```
 PS C:\Users\アカウント名> [System.Environment]::SetEnvironmentVariable("VAGRANT_HOME", "C:\Home\sNNNNNNN\.vagrant.d", "User")
-PS C:Users\アカウント名> [System.Environment]::SetEnvironmentVariable("VBOX_USER_HOME", "C:\Home\sNNNNNNN\.VirtualBox", "User")
+PS C:\Users\アカウント名> [System.Environment]::SetEnvironmentVariable("VBOX_USER_HOME", "C:\Home\sNNNNNNN\.VirtualBox", "User")
 PS C:\Users\アカウント名>exit
 ```
 - PCの再起動
@@ -61,7 +61,7 @@ PS C:\Users\アカウント名> vagrant plugin install vagrant-vbguest
 ```
 - 実行許可を求める表示が出たら、許可する
 
-### Vagrantプラグインのアンインストール
+### （参考）Vagrantプラグインのアンインストール
 
 - `vagrant-vbguest`の例
 
@@ -69,6 +69,7 @@ PS C:\Users\アカウント名> vagrant plugin install vagrant-vbguest
 PS C:\Users\アカウント名> vagrant plugin uninstall vagrant-vbguest
 ```
 
+---
 
 ### 仮想マシンの作成
 
