@@ -14,3 +14,4 @@
 - R + RStudio 統計処理
 - SPSS 統計処理
 - TeXLive LaTeX実行環境
+- Hugo 静的サイト生成
