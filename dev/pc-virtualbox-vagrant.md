@@ -8,7 +8,10 @@
 
 ### VirtualBoxのインストール
 
-- [VirtualBoxのダウンロードページ](https://www.virtualbox.org/wiki/Downloads)にいき、`Windows Hosts`を選択
+:warning: 2020/01/06時点で、VagrantはVirtualBox ver.6.0を必要としています。
+
+- [VirtualBoxのダウンロードページ](https://www.virtualbox.org/wiki/Downloads)にいく
+- ページ中段にある`VitualBox older builds`を選択、`VitualBox 6.0` > `Windows Hosts`を選択
 - ダウンロード → 実行
   - すべて次へ
   - :warning: このデバイスソフトウェアをインストールしますか？：インストール
