@@ -14,3 +14,16 @@
 
 * [Anacondaのインストール](pc-anaconda.md)
 * [Jupyter Labの使い方](python-jupyterlab.md)
+
+## 仮想マシン
+
+:bulb: `Python`, `Ruby`, `R`, `LaTeX`などはWindows版の安定したアプリがありますので、特に支障がない限りそれらを使うことをおすすめします。
+
+* [VirtualBoxとVagrantのインストール](pc-virtualbox-vagrant.md)
+* [Ubuntu 18.04 LTSを使った仮想マシンの作成](vm-ubuntu1804.md)
+* [CenOS 7を使った仮想マシンの作成](vm-ubuntu1804.md)
+
+## ElasticSearchとKibana
+
+* [ElasticsearchとKibanaを持つ仮想マシンの作成](vm-elastic.md)
+
