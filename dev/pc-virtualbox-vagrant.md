@@ -14,14 +14,12 @@
   - `sNNNNNNN`は統一認証のユーザ名（半角英数）
 ```
 PS C:\Users\アカウント名>cd C:\
-PS C:\>mkdir Home
-PS C:\>cd Home
-PS C:\Home>mkdir sNNNNNNN
-PS C:\Home>cd sNNNNNNN
+PS C:\>mkdir Home; cd Home
+PS C:\Home>mkdir sNNNNNNN; cd sNNNNNNN
 PS C:\Home\sNNNNNNN>mkdir .vagrant.d; mkdir .VirtualBox; mkdir "VirtualBox VMs"
-PS C:\Home\sNNNNNN>mkdir Workspace; cd Workspace
+PS C:\Home\sNNNNNNN>mkdir Workspace; cd Workspace
 PS C:\Home\sNNNNNNN\Workspace>mkdir Local; cd Local
-PS C:\Home\sNNNNNN\Workspace\Local>mkdir Vagrant
+PS C:\Home\sNNNNNNN\Workspace\Local>mkdir Vagrant
 ```
 
 ### VirtualBoxのインストール
