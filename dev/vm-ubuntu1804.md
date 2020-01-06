@@ -22,8 +22,8 @@ PS C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804>vagrant init b
 PS C:\Users\アカウント名\Workspace\Local\Vagrant\Ubuntu1804>code . # VSCodeの起動
 ```
 - 以下はVSCode上で作業
-  - 生成されている`Vagrantfile`の内容を[Vagrantfile.Ubuntu1804](vagrant/Vagrantfile.Ubuntu1804)で上書きする
-  - `Vagrant_provision.sh`というファイルを新規作成し、[Vagrant_provision.sh.Ubuntu1804](vagrant/Vagrant_provision.sh.Ubuntu1804)をで上書きする
+  - 生成されている`Vagrantfile`の内容を[Vagrantfile.ubuntu1804](vagrant/Vagrantfile.ubuntu1804)で上書きする
+  - `Vagrant_provision.sh`というファイルを新規作成し、[Vagrant_provision.sh.ubuntu1804](vagrant/Vagrant_provision.sh.ubuntu1804)をで上書きする
 
 ### 仮想マシンの起動
 
