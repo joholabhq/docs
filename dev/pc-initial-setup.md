@@ -34,6 +34,7 @@
 * （任意）[CapsLockキーをCtrlキーとして使う](pc-capslock.md)
 * （ThinkPadの場合）[ドライバーのインストール](pc-drivers.md)
 * [PCのディスクを暗号化する](pc-bitlocker.md)
+* [ユーザフォルダ内作業エリアの作成](pc-workspace.md)
 
 ## 手順 3
 
