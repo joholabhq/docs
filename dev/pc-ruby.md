@@ -8,4 +8,4 @@
 
 - [RubyInstaller](https://rubyinstaller.org/)のページにいく
 - Download > WITH DEVKIT の `=>`がついているリンクを選択、ダウンロード → 実行
-- 
+- Accept > Next > Install
