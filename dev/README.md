@@ -25,5 +25,5 @@
 
 ## ElasticSearchとKibana
 
-* [ElasticsearchとKibanaを持つ仮想マシンの作成](vm-elastic.md)
+* ElasticsearchとKibanaを持つ仮想マシンの作成
 
