@@ -2,10 +2,9 @@
 
 ## 所要時間
 
-- 手順1：10分
-- 手順2：不明
+- 手順：10分
 
-## 手順１：インストールと初期設定
+## 手順：インストールと初期設定
 
 - [ホームページ](https://code.visualstudio.com/)にいく
 - `Download for Windows`を選択して、ダウンロード → 実行
@@ -25,6 +24,18 @@
     - `ようこそ`画面で`カスタマイズ` → `配色テーマ`を選択
     - `Light+ (Default light)`（例）を選択
 
-## 手順2：拡張機能のインストール
+## おすすめの拡張機能
+
+以下の拡張機能のインストールは任意です。自分のニーズにあったものを選択しましょう。似たような名称の拡張機能が複数あるものには作成者の名前が載せてあります。インストール方法は、上の手順を参考にしてください。
+
+### 日本語化
+
+- Japanese Language Pack for Visual Studio Code
+
+### 語数・字数表示（Markdownファイル）
+
+- Word Count (by Microsoft)
+- Character Count (by Adam Stevenson)
+
 
 - Markdown
