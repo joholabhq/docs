@@ -74,4 +74,4 @@ PS C:\Users\アカウント名> vagrant plugin uninstall vagrant-vbguest
 ### 仮想マシンの作成
 
 - [Ubuntu 18.04 LTSを使った仮想マシン作成](vm-ubuntu1804.md)
-- [CentOS 7を使った仮想マシンの作成](vm-cnetos7.md)
+- [CentOS 8を使った仮想マシンの作成](vm-centos8.md)
