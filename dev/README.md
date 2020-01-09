@@ -17,11 +17,12 @@
 
 ## 仮想マシン
 
-:bulb: `Python`, `Ruby`, `R`, `LaTeX`などはWindows版の安定したアプリがありますので、特に支障がない限りそれらを使うことをおすすめします。
+:bulb: `Python`（含 `Jupyter Notebook` / `JupyterLab`）, `Ruby`, `R`, `LaTeX`などはWindows版の安定したアプリがありますので、特に支障がない限りそれらを使うことをおすすめします。
 
 * [VirtualBoxとVagrantのインストール](pc-virtualbox-vagrant.md)
 * [Ubuntu 18.04 LTSを使った仮想マシンの作成](vm-ubuntu1804.md)
 * [CenOS 7を使った仮想マシンの作成](vm-centos8.md)
+* [仮想マシンにアプリをインストールする方法)[vm-install-apps.md)
 
 ## ElasticSearchとKibana
 
