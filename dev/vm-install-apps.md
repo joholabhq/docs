@@ -8,7 +8,7 @@
 
 ## 参考URL
 
-- server world https://www.server-world.info/
+- Server World https://www.server-world.info/
   - [Ubuntu 18.04 LTS](https://www.server-world.info/query?os=Ubuntu_18.04)
   - [CentOS 8](https://www.server-world.info/query?os=CentOS)
   
