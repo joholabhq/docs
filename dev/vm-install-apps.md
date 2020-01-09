@@ -20,7 +20,7 @@
 ## 手順２：`Vagrant_provision.sh`にインストールするアプリを記述する
 
 - 仮想マシンが生成される（あるいは起動する）段階で一緒にアプリのインストールをしたい場合は、[Ubuntu 18.04 LTSを使った仮想マシンの作成](vm-ubuntu1804.md)や[CenOS 7を使った仮想マシンの作成](vm-centos8.md)からリンクされている`Vagrant_provision.sh`にインストールコマンドを追加する。
-- Ubuntu 18.4 LTSの例
+- Ubuntu 18.4 LTSの例（:bulb: アプリのインストールコマンドはディストリビューションによって異なるので注意が必要）
 
 [Vagrant_provision.sh.ubuntu1804](vagrant/Vagrant_provision.sh.ubuntu1804)
 ```
@@ -47,7 +47,4 @@ sudo apt install -y build-essential
 # Install additional apps
 echo "============ PROVISIONING: Installing additional applications ..."
 sudo apt install -y [アプリの名前]
-```
-
-- :bulb: アプリのインストールコマンドはディストリビューションによって異なるので注意が必要。
 ```
