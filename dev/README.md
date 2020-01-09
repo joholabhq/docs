@@ -21,7 +21,7 @@
 
 * [VirtualBoxとVagrantのインストール](pc-virtualbox-vagrant.md)
 * [Ubuntu 18.04 LTSを使った仮想マシンの作成](vm-ubuntu1804.md)
-* CenOS 7を使った仮想マシンの作成
+* [CenOS 7を使った仮想マシンの作成](vm-centos8.md)
 
 ## ElasticSearchとKibana
 
