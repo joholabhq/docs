@@ -14,7 +14,7 @@
   
 ## 手順１：仮想マシンにSSH接続した後に、アプリをインストールする
 
-- [VirtualBoxとVagrantのインストール](pc-virtualbox-vagrant.md)を参考に、仮想マシンにSSH接続する。
+- [Ubuntu 18.04 LTSを使った仮想マシンの作成](vm-ubuntu1804.md)や[CenOS 7を使った仮想マシンの作成](vm-centos8.md)を参考に、仮想マシンにSSH接続する。
 - 参考URLのサイト等を参考に、インストールをおこなう。
 
 ## 手順２：`Vagrant_provision.sh`にインストールするアプリを記述する
