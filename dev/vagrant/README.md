@@ -5,8 +5,7 @@
 - [Vagrantfile.ubuntu1804](Vagrantfile.ubuntu1804)
 - [Vagrant_provision.sh.ubuntu1804](Vagrant_provision.sh.ubuntu1804)
 
-## CentOS 7
+## CentOS 8
 
-
-- [Vagrantfile.centos7](Vagrantfile.centos7)
-- [Vagrant_provision.sh.centos7](Vagrant_provision.sh.centos7)
+- [Vagrantfile.centos8](Vagrantfile.centos8)
+- [Vagrant_provision.sh.centos8](Vagrant_provision.sh.centos8)
