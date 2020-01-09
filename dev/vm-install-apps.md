@@ -10,7 +10,7 @@
 
 - Server World https://www.server-world.info/
   - [Ubuntu 18.04 LTS](https://www.server-world.info/query?os=Ubuntu_18.04)
-  - [CentOS 8](https://www.server-world.info/query?os=CentOS)
+  - [CentOS 8](https://www.server-world.info/query?os=CentOS_8)
   
 ## 手順１：仮想マシンにSSH接続した後に、アプリをインストールする
 
