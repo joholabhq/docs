@@ -4,12 +4,12 @@
 
 環境：ThinkPad Eシリーズ・Windows 10 Enterprise・US配列
 
-* [Windows10のインストール](pc-win10.md)
 * [PCの初期設定](pc-initial-setup.md)
 * [PCの詳細設定](pc-advanced-settings.md)
 * [必須アプリのインストール](pc-essential-apps.md)
 * [個別アプリのインストール](pc-advanced-apps.md)
 * :warning: [PCの初期化](pc-reset.md)
+* :warning: [Windows10のインストール](pc-win10.md)
 
 環境：ThinkPad Eシリーズ・Ubuntu 18.04 LTS・US配列
 
