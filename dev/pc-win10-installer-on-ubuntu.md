@@ -23,5 +23,5 @@ $ sudo apt install woeusb
   - File System: NTFS
   - Target Device: USBディスクを選択（例：`/dev/sdb`）
   - Install
-  - エラー画面が出たら、デスクトップ画面からUSBディスクを右クリックして、アンマウントする > Install
+  - エラー画面が出たら、デスクトップ画面からUSBディスクを右クリック > アンマウント > Install
 - Windows 10のインストールが完了するまで待つ
