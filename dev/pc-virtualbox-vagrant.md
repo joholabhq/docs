@@ -42,7 +42,6 @@ PS C:\Home\sNNNNNNN\Workspace\Local>mkdir Vagrant
 ### 環境変数の設定
 
 - `Windows Powershell (x86)`を起動し、以下のコマンドを実行
-  - `sNNNNNNN`は統一認証のユーザ名（半角英数）
 ```
 PS C:\Users\アカウント名> [System.Environment]::SetEnvironmentVariable("VAGRANT_HOME", "C:\Home\sNNNNNNN\.vagrant.d", "User")
 PS C:\Users\アカウント名> [System.Environment]::SetEnvironmentVariable("VBOX_USER_HOME", "C:\Home\sNNNNNNN\.VirtualBox", "User")
@@ -69,7 +68,7 @@ PS C:\Users\アカウント名> vagrant plugin uninstall vagrant-vbguest
 
 ---
 
-### 仮想マシンの作成
+### （参考）仮想マシンの作成
 
 - [Ubuntu 18.04 LTSを使った仮想マシン作成](vm-ubuntu1804.md)
 - [CentOS 8を使った仮想マシンの作成](vm-centos8.md)
