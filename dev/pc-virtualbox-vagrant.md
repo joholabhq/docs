@@ -8,17 +8,14 @@
 
 ### フォルダの準備
 
-- Office365のアカウントでWindowsにログインすると、ホームフォルダが日本語になる場合があり、Vagrantが正常に作動しないので、以下の回避策をとる
-- 疑似ホームフォルダの作成
+- [第２作業エリアの作成](pc-workspace.md)
+- 関連フォルダの作成
   - `Windows Powershell (x86)`を起動し、以下のコマンドを実行（エクスプローラーで作業しても良い）
   - `sNNNNNNN`は統一認証のユーザ名（半角英数）
 ```
-PS C:\Users\アカウント名>cd C:\
-PS C:\>mkdir Home; cd Home
-PS C:\Home>mkdir sNNNNNNN; cd sNNNNNNN
+PS C:\Users\アカウント名>cd C:\Home\sNNNNNNN
 PS C:\Home\sNNNNNNN>mkdir .vagrant.d; mkdir .VirtualBox; mkdir "VirtualBox VMs"
-PS C:\Home\sNNNNNNN>mkdir Workspace; cd Workspace
-PS C:\Home\sNNNNNNN\Workspace>mkdir Local; cd Local
+PS C:\Home\sNNNNNNN>cd Workspace; cd Local
 PS C:\Home\sNNNNNNN\Workspace\Local>mkdir Vagrant
 ```
 
@@ -45,6 +42,7 @@ PS C:\Home\sNNNNNNN\Workspace\Local>mkdir Vagrant
 ### 環境変数の設定
 
 - `Windows Powershell (x86)`を起動し、以下のコマンドを実行
+  - `sNNNNNNN`は統一認証のユーザ名（半角英数）
 ```
 PS C:\Users\アカウント名> [System.Environment]::SetEnvironmentVariable("VAGRANT_HOME", "C:\Home\sNNNNNNN\.vagrant.d", "User")
 PS C:\Users\アカウント名> [System.Environment]::SetEnvironmentVariable("VBOX_USER_HOME", "C:\Home\sNNNNNNN\.VirtualBox", "User")
