@@ -14,5 +14,5 @@
 - [VitualBox + Vagrant](pc-virtualbox-vagrant.md) 仮想マシン
 - R + RStudio 統計処理
 - SPSS 統計処理
-- TeXLive LaTeX実行環境
+- [TeXLive](pc-texlive.md) LaTeX実行環境
 - Hugo 静的サイト生成
