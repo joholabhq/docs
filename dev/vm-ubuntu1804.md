@@ -41,9 +41,9 @@ PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant up
 ...
 ```
 
-## 仮想マシンへのSSH接続
+### 仮想マシンへのSSH接続
 
-### 方法１：`Termius`（おすすめ）
+#### 方法１：`Termius`（おすすめ）
 
 - [Termiusをインストール](pc-termius.md)
 - 新しいホストを作成
@@ -53,7 +53,7 @@ PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant up
   - パスワード：vagrant
 - 接続
 
-### 方法２：`Windows Powershell (x86)`
+#### 方法２：`Windows Powershell (x86)`
 
 - `Windows Powershell (x86)`アプリ、あるいは、`VSCode`内のターミナルから以下のコマンドを実行
 ```
@@ -61,7 +61,7 @@ PS C:\Users\アカウント名> cd C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubun
 PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant ssh
 ```
 
-## 仮想マシンの終了
+### 仮想マシンの終了
 
 - 仮想マシンを起動した端末で以下のコマンドを実行
 ```
