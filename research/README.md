@@ -3,6 +3,7 @@
 ## 思考の整理と発想
 
 - [KJ法による思考の整理](affinity-diagram.md)
+- [Trelloを使ったKJ法](affinity-diagram-with-trello.md)
 
 ## 研究発表
 
