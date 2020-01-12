@@ -6,6 +6,7 @@
 
 - [KJ法による思考の整理](affinity-diagram.md)を学ぶ
 - [Trello](https://trello.com/)のアカウントを作成 > ログイン
+  - 研究室内での効率的な情報共有のために、なるべくOffice 365アカウントを使用してください
 
 ## 手順
 
