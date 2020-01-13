@@ -31,7 +31,7 @@ PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>code . # VSCodeの起動
 - VSCodeの上部メニュー > ターミナル > 新しいターミナル`
 - 以下のコマンドを実行
 ```
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant up
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant up --provider=virtualbox
 ```
 
 #### 方法２：Windows PowerShellから起動
@@ -39,7 +39,7 @@ PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant up
 - 仮想マシンを起動したいだけならば、方法２でも十分
 ```
 PS C:\Users\アカウント名> cd C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant up
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant up --provider=virtualbox
 ...
 ```
 
