@@ -63,6 +63,13 @@ PS C:\Users\アカウント名> cd C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Cent
 PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS8>vagrant ssh
 ```
 
+### 仮想マシンとのファイル共有
+
+- 仮想マシン内のファイルは仮想マシンを終了するとアクセスできなくなります。
+- 仮想マシンでの作業後にホストマシンでアクセスしたいファイルやデータがある場合は、共有フォルダに保存しましょう。
+- 共有フォルダの位置
+  - 仮想マシン：`/vagrant`
+  - ホストマシン：`C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS8`
 
 ### 仮想マシンの終了
 
