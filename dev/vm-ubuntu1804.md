@@ -63,6 +63,14 @@ PS C:\Users\アカウント名> cd C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubun
 PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant ssh
 ```
 
+### 仮想マシンとのファイル共有
+
+- 仮想マシン内のファイルは仮想マシンを終了するとアクセスできなくなります。
+- 仮想マシンでの作業後にホストマシンでアクセスしたいファイルやデータがある場合は、共有フォルダに保存しましょう。
+- 共有フォルダの位置
+  - 仮想マシン：`/vagrant`
+  - ホストマシン：`C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804`
+
 ### 仮想マシンの終了
 
 - 仮想マシンを起動した端末で以下のコマンドを実行
