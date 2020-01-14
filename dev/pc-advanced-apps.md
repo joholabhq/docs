@@ -10,7 +10,7 @@
 
 
 - [Anaconda](pc-anaconda.md) Python実行環境（含 Jupyter Lab）
-- Hugo 静的サイト生成
+- [Hugo](pc-hugo.md) 静的サイト生成
 - R + RStudio 統計処理
 - [Ruby](pc-ruby.md) Ruby実行環境
 - [SoftEther VPN](http://campus-vpn.cc.tsukuba.ac.jp/ja/howto_softether.aspx#windows) 学外からのVPN接続
