@@ -16,18 +16,23 @@
 
 - `Windows PowerShell (x86)`を起動し、以下のコマンドを実行（エクスプローラーで作業しても良い）
 ```
-PS C:\Users\アカウント名> mkdir Workspace
-PS C:\Users\アカウント名> cd Workspace
-PS C:\Users\アカウント名> mkdir Local
+PS C:\Users\アカウント名>mkdir SynologyDrive; cd SynologyDrive
+PS C:\Users\アカウント名\SynologyDrive>mkdir MyFolders; mkdir TeamFolders; cd TeamFolders
+PS C:\Users\アカウント名\SynologyDrive\TeamFolders>mkdir Lab
 ```
 - 結果
 ```
 C:
   ├ Users
     ├ アカウント名
-      ├ Workspace
-        ├ Local
+      ├ SynologyDrive
+        ├ TeamFolders
+          ├ Lab # ここに研究室全体の共有フォルダを同期設定する
+        ├ MyFolders
+          ├ # ここに個人の研究関連ファイルやデータを置く
+          
 ```
+- [SynologyDrive](pc-synologydrive.md)をインストール
 
 ## 手順2: 第２作業エリア
 
