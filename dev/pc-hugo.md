@@ -15,3 +15,8 @@ PS C:>mkdir Hugo; cd Hugo
 PS C:\Hugo>mkdir bin
 ```
 - 展開したフォルダにある`Hugo.exe`を作成した`C:\Hugo\bin`フォルダに移動
+- `Windowsキー+S`で検索窓を出して「環境」で検索 > 環境変数を編集 を選択
+- ユーザ環境変数の`Path`をダブルクリック
+- 右のボタンから「新規」を選択
+- `C:\Hugo\bin`と入力 > OK > OK
+- PCを再起動
