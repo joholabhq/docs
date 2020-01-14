@@ -28,7 +28,7 @@
   - `同期タスク`を選択 > 作成 > 次へ
   - `フォルダをマイドライブ・・・で同期`を選択 > 次へ
   - `Synology Driveサーバ`を選択 > 右側の鉛筆アイコンを選択 > チームフォルダ > Labを選択 > OK
-  - `ローカルフォルダ`を選択 > 右側の鉛筆アイコンを選択 > 作成した`Users\アカウント名\SynologyDrive\TeamFolder`を選択
+  - `ローカルフォルダ`を選択 > 右側の鉛筆アイコンを選択 > 作成した`Users\アカウント名\SynologyDrive\TeamFolder\Lab`を選択
   - 空白のSynologyDriveを作成のチェックを**外す** >　OK > 次へ
   - 完了
 
