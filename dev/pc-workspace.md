@@ -32,7 +32,7 @@ C:
           ├ # ここに個人の研究関連ファイルやデータを置く
           
 ```
-- [SynologyDrive](pc-synologydrive.md)をインストール
+- [Synology Drive](pc-synologydrive.md)をインストール
 
 ## 手順2: 第２作業エリア
 
