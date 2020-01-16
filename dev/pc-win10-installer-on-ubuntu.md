@@ -22,6 +22,6 @@ $ sudo add-apt-repository ppa:nilarimogard/webupd8
 ... [Enter]
 $ sudo apt update
 $ sudo apt install woeusb
-$ woeusb --tgt-fs NTFS --device Downloads/Win10...iso /dev/sda
+$ sudo woeusb --tgt-fs NTFS --device Downloads/Win10...iso /dev/sda
 ```
 - Windows 10のインストールが完了するまで待つ（1時間くらいかかる）
