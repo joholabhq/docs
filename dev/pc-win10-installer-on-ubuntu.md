@@ -16,12 +16,12 @@
   - 製品の言語の選択：日本語 > 確認
   - Windows 10 日本語 64-bit ダウンロードを選択 > ダウンロード
 - 端末（ターミナル）から以下のコマンドを実行
-  - `Downloads/Win...iso`の部分は自分の環境（ダウンロード先）に合わせる
+  - `[Downloads/Win...iso]`の部分は自分の環境（ダウンロード先）に合わせる
 ```
 $ sudo add-apt-repository ppa:nilarimogard/webupd8
 ... [Enter]
 $ sudo apt update
 $ sudo apt install woeusb
-$ sudo woeusb --tgt-fs NTFS --device Downloads/Win10...iso /dev/sda
+$ sudo woeusb --tgt-fs NTFS --device [Downloads/Win10...iso] /dev/sda
 ```
 - Windows 10のインストーラー作成が完了するまで待つ（1時間くらいかかる）
