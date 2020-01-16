@@ -25,3 +25,10 @@ $ sudo apt install woeusb
 $ sudo woeusb --tgt-fs NTFS --device [Downloads/Win10...iso] /dev/sda
 ```
 - Windows 10のインストーラー作成が完了するまで待つ（1時間くらいかかる）
+- 末尾に以下のようなエラーメッセージが表示されるが、作成は成功している
+```
+...
+unresponsive during copying files.
+/usr/bin/woeusb: 1676 行: echo: 書き込みエラー: 無効な引数です
+The command "exit 0" failed with exit status "1", program is prematurely aborted
+```
