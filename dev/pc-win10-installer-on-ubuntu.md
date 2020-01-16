@@ -24,4 +24,4 @@ $ sudo apt update
 $ sudo apt install woeusb
 $ sudo woeusb --tgt-fs NTFS --device Downloads/Win10...iso /dev/sda
 ```
-- Windows 10のインストールが完了するまで待つ（1時間くらいかかる）
+- Windows 10のインストーラー作成が完了するまで待つ（1時間くらいかかる）
