@@ -17,7 +17,7 @@ Windows10のインストールとEnterprise版へのアップグレード
 
 - インストール用USBディスクをPCに接続して、PCの電源を入れて、`Lenovo`のロゴが表示されたらすぐに`Enter`キーを押す
 - BIOS設定画面が表示されたら、以下の設定をおこなう
-  - Security > Secure Book > Disable
+  - Security > Secure Boot > Disable
   - Startup > UEFI/Legacy Boot > Both
   - UEFI/Legacy Boot Priority > Legacy First
   - `F10` > Yes
