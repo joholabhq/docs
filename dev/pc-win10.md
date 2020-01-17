@@ -4,6 +4,10 @@
 
 Windows10のインストールとEnterprise版へのアップグレード
 
+## 参考URL
+
+- http://lifekeynotes.com/2018/08/01/hot-to-solve-your-thinkpad-usb-boot-problems/
+
 ## 所要時間
 
 - 手順1: 1時間
@@ -11,7 +15,12 @@ Windows10のインストールとEnterprise版へのアップグレード
 
 ## 手順1: Windows10のインストール
 
-- インストール用USBディスクをPCに接続して、PCの電源を入れてすぐに`F12`キーを押す
+- インストール用USBディスクをPCに接続して、PCの電源を入れて、`Lenovo`のロゴが表示されたらすぐに`Enter`キーを押す
+- BIOS設定画面が表示されたら、以下の設定をおこなう
+  - Security > Secure Book > Disable
+  - Startup > UEFI/Legacy Boot > Both
+  - UEFI/Legacy Boot Priority > Legacy First
+  - `F10` > Yes
 - ブート画面が表示されたらUSBディスクを選択
 - インストール画面が表示されたら、[PCの初期設定](pc-initial-setup.md)の手順1を参考にインストールを行う
 - デスクトップ画面が表示されたら、手順2に移る
