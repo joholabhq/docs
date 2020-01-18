@@ -8,9 +8,6 @@
 
 ## 手順
 
-- データを全て削除しても良いUSBディスク（8G以上）をPCに接続する
-- USBディスクのアイコンがデスクトップに表示されたら、右クリック > ドライブを安全に取り出す を選択し、アイコンが消えたことを確認
-  - :warning: USBディスクはパソコンに接続したままにしておく
 - [Windows 10 のディスク イメージ (ISO ファイル) のダウンロード](https://www.microsoft.com/ja-jp/software-download/windows10ISO)にいく
   - エディションの選択：Windows10 > 確認
   - 製品の言語の選択：日本語 > 確認
@@ -22,7 +19,12 @@ $ sudo add-apt-repository ppa:nilarimogard/webupd8
 ... [Enter]
 $ sudo apt update
 $ sudo apt install woeusb
-$ sudo woeusb --tgt-fs NTFS --device [Downloads/Win10...iso] /dev/sda
+```
+- データを全て削除しても良いUSBディスク（8G以上）をPCに接続する
+- USBディスクのアイコンがデスクトップに表示されたら、端末（ターミナル）から以下のコマンドを実行
+```
+$ sudo umount /dev/sda1
+$ sudo woeusb --tgt-fs NTFS -d [Downloads/Win10...iso] /dev/sda
 ```
 - Windows 10のインストーラー作成が完了するまで待つ（1時間くらいかかる）
 - 末尾に以下のようなエラーメッセージが表示されるが、作成は成功している
