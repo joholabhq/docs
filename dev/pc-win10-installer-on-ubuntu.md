@@ -24,7 +24,7 @@ $ sudo apt install woeusb
   - `[Downloads/Win...iso]`の部分は自分の環境（ダウンロード先）を指定する
 ```
 $ sudo umount /dev/sda1
-$ sudo woeusb --tgt-fs NTFS -d [Downloads/Win10...iso] /dev/sda
+$ sudo woeusb --tgt-fs NTFS -d '[Downloads/Win10...iso]' /dev/sda
 ```
 - Windows 10のインストーラー作成が完了するまで待つ（1時間くらいかかる）
 - 末尾に以下のようなエラーメッセージが表示されるが、作成は成功している
