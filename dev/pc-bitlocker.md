@@ -18,3 +18,4 @@
 - BitLockerシステムチェックを実行する → チェックは**入れない** → `暗号化の開始`
 - `C: BitLockerが有効です`という表示が出たら完了
 - [Synology Drive](pc-synologydrive.md)のインストール後に、ファイルに保存した回復キーを`MyFolders`にコピーしておく
+  - :warning: 回復キーを紛失するとPCにアクセスできなくなる場合があります
