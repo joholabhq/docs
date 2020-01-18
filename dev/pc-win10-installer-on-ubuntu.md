@@ -13,7 +13,6 @@
   - 製品の言語の選択：日本語 > 確認
   - Windows 10 日本語 64-bit ダウンロードを選択 > ダウンロード（ファイルを保存する）
 - 端末（ターミナル）から以下のコマンドを実行
-  - `[Downloads/Win...iso]`の部分は自分の環境（ダウンロード先）に合わせる
 ```
 $ sudo add-apt-repository ppa:nilarimogard/webupd8
 ... [Enter]
@@ -22,6 +21,7 @@ $ sudo apt install woeusb
 ```
 - データを全て削除しても良いUSBディスク（8G以上）をPCに接続する
 - USBディスクのアイコンがデスクトップに表示されたら、端末（ターミナル）から以下のコマンドを実行
+  - `[Downloads/Win...iso]`の部分は自分の環境（ダウンロード先）を指定する
 ```
 $ sudo umount /dev/sda1
 $ sudo woeusb --tgt-fs NTFS -d [Downloads/Win10...iso] /dev/sda
