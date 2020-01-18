@@ -30,7 +30,7 @@
   - `Synology Driveサーバ`を選択 > 右側の鉛筆アイコンを選択 > チームフォルダ > `Lab`を選択 > OK
   - `ローカルフォルダ`を選択 > 右側の鉛筆アイコンを選択 > 作成した`C:\Users\アカウント名\SynologyDrive\TeamFolders\Lab`を選択
   - 空白のSynologyDriveを作成のチェックを**外す** > OK > 次へ > 完了
-- :warning: [BitLockerの回復キー](pc-initial-setup.md)を`MyFolders`にコピー
+- :bulb: [BitLockerの回復キー](pc-bitlocker.md)を`MyFolders`にコピー
 - （任意）`Synology Drive`のウェブページに戻ってスマホ用アプリをインストール
 
 ## オンデマンド同期について
