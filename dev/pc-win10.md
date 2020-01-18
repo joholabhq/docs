@@ -17,6 +17,7 @@ Windows10のインストールとEnterprise版へのアップグレード
 ## 手順1: Windows10のインストール
 
 - インストール用USBディスクをPCに接続して、PCの電源を入れて、`Lenovo`のロゴが表示されたらすぐに`Enter`キーを押す
+- 青い画面が表示されたら`F1`キーを押す
 - BIOS設定画面が表示されたら、以下の設定をおこなう
   - Security > Secure Boot > Disable > `F10` > Yes
   - 再起動
