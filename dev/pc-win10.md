@@ -7,6 +7,7 @@ Windows10のインストールとEnterprise版へのアップグレード
 ## 参考URL
 
 - http://lifekeynotes.com/2018/08/01/hot-to-solve-your-thinkpad-usb-boot-problems/
+- [Windows 10用USBインストーラーの作成](pc-win10-installer-on-ubuntu.md)
 
 ## 所要時間
 
