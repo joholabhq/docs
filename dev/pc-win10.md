@@ -17,12 +17,15 @@ Windows10のインストールとEnterprise版へのアップグレード
 
 - インストール用USBディスクをPCに接続して、PCの電源を入れて、`Lenovo`のロゴが表示されたらすぐに`Enter`キーを押す
 - BIOS設定画面が表示されたら、以下の設定をおこなう
-  - Security > Secure Boot > Disable
-- ブート画面が表示されたらUSBディスクを選択
+  - Security > Secure Boot > Disable > `F10` > Yes
+  - 再起動
+- PCの電源を入れて、`Lenovo`のロゴが表示されたらすぐに`F12`キーを押す
+- ブート選択画面が表示されたらUSBディスクを選択
 - インストール画面が表示されたら、[PCの初期設定](pc-initial-setup.md)の手順1を参考にインストールを行う
 - デスクトップ画面が表示されたら、手順2に移る
 
 ### USBから起動できない場合
+
 - BIOS設定画面が表示されたら、以下の追加設定をおこなう
   - Startup > UEFI/Legacy Boot > Both
   - UEFI/Legacy Boot Priority > Legacy First
