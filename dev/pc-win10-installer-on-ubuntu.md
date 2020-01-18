@@ -34,7 +34,9 @@ unresponsive during copying files.
 /usr/bin/woeusb: 1676 行: echo: 書き込みエラー: 無効な引数です
 The command "exit 0" failed with exit status "1", program is prematurely aborted
 ```
-
+- デスクトップに`Windows USB`というアイコンが表示されることを確認
+  - 右クリック > 安全に取り外す > USBディスクをPCから外す
+  
 ---
 
 - （参考）[Windows 10のインストール](pc-win10.md)
