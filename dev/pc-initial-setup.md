@@ -31,7 +31,7 @@
 
 ## 手順 2
 
-* [IMEオンオフのショートカットキー設定](pc-ime-shortcut.md)
+* [IMEオンオフのショートカットキー設定](pc-ime-setting.md)
 * （任意）[CapsLockキーをCtrlキーとして使う](pc-capslock.md)
 * （ThinkPadの場合）[ドライバーのインストール](pc-drivers.md)
 * [PCのディスクを暗号化する](pc-bitlocker.md)
