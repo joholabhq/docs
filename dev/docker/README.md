@@ -1,4 +1,4 @@
 # Docker
 
-- [Elasticsearch + Kibana](elk/README.md)
+- [Elasticsearch + Kibana](elk/)
 
