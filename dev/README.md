@@ -2,7 +2,7 @@
 
 ## PCの設定
 
-環境：ThinkPad Eシリーズ・Windows 10 Enterprise・US配列
+### 環境：ThinkPad Eシリーズ・Windows 10 Enterprise・US配列
 
 * [PCの初期設定](pc-initial-setup.md)
 * [PCの詳細設定](pc-advanced-settings.md)
@@ -11,7 +11,7 @@
 * :warning: [PCの初期化](pc-reset.md)
 * :warning: [Windows10のインストール](pc-win10.md)
 
-環境：ThinkPad Eシリーズ・Ubuntu 18.04 LTS・US配列
+### 環境：ThinkPad Eシリーズ・Ubuntu 18.04 LTS・US配列
 
 * [Windows10用USBインストーラーの作成](pc-win10-installer-on-ubuntu.md)
 
