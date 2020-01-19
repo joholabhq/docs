@@ -23,7 +23,7 @@ services:
     links:
       - elasticsearch:elasticsearch
     volumes:
-      - "./kibana.yml:/usr/share/kibana/config/kibana.yml"
+      - "./kibana/kibana.yml:/usr/share/kibana/config/kibana.yml"
     restart: always
 
 volumes:
