@@ -43,25 +43,36 @@ PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS8-EK>vagrant up --provider=vir
 ...
 ```
 
-### 仮想マシンへのSSH接続
+### 仮想マシン上のElasticsearchへの接続
 
-#### 方法１：`Termius`（おすすめ）
-
-- [Termiusをインストール](pc-termius.md)
-- 新しいホストを作成
-  - ホスト名：CentOS 8 EK（例）
-  - アドレス：192.168.33.10
-  - ユーザ名：vagrant
-  - パスワード：vagrant
-- 接続
-
-#### 方法２：`Windows Powershell (x86)`
-
-- `Windows Powershell (x86)`アプリ、あるいは、`VSCode`内のターミナルから以下のコマンドを実行
+- http://192.168.33.10:9200
+- 以下のような出力が表示されたら、正常に動作しています
 ```
-PS C:\Users\アカウント名> cd C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS8-EK
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS8-EK>vagrant ssh
+{
+  "name" : "gK2xvEj",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "CsFaFfVPRBCUo0Y3ZpODsw",
+  "version" : {
+    "number" : "6.8.6",
+    "build_flavor" : "default",
+    "build_type" : "rpm",
+    "build_hash" : "3d9f765",
+    "build_date" : "2019-12-13T17:11:52.013738Z",
+    "build_snapshot" : false,
+    "lucene_version" : "7.7.2",
+    "minimum_wire_compatibility_version" : "5.6.0",
+    "minimum_index_compatibility_version" : "5.0.0"
+  },
+  "tagline" : "You Know, for Search"
+}
 ```
+
+### 仮想マシン上のKibanaへの接続
+
+:bulb: `Kibana`はアクセスできるようになるまで、少し時間がかかる場合があります
+
+- http://192.168.33.10:5601
+
 
 ### 仮想マシンとのファイル共有
 
