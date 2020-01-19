@@ -1,9 +1,16 @@
 # Elasticsearch + Kibana
 
-- docker-compose.yml
-- elasticsearch
-  - Dockerfile
-- es-data
-- kibana
-  - Dockerfile
-- kibana.yml
+File Structure
+
+```
+├── docker-compose.yml
+├── elasticsearch
+│   └── Dockerfile
+├── es-data
+│   ├── license.json
+│   └── nodes
+│       └── 0
+├── kibana
+│   └── Dockerfile
+└── kibana.yml
+```
