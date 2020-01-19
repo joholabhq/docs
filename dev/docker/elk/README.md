@@ -8,6 +8,6 @@ File Structure
 │   └── Dockerfile
 ├── es-data
 └── kibana
-    └── Dockerfile
+    ├── Dockerfile
     └── kibana.yml 
 ```
