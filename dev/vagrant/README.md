@@ -9,3 +9,8 @@
 
 - [Vagrantfile.centos8](Vagrantfile.centos8)
 - [Vagrant_provision.sh.centos8](Vagrant_provision.sh.centos8)
+
+## CentOS 8 + Elasticsearch + Kibana
+
+- [Vagrantfile.centos8.ek](Vagrantfile.centos8.ek)
+- [Vagrant_provision.sh.centos8.ek](Vagrant_provision.sh.centos8.ek)
