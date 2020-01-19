@@ -7,10 +7,7 @@ File Structure
 ├── elasticsearch
 │   └── Dockerfile
 ├── es-data
-│   ├── license.json
-│   └── nodes
-│       └── 0
-├── kibana
-│   └── Dockerfile
-└── kibana.yml
+└── kibana
+    └── Dockerfile
+    └── kibana.yml 
 ```
