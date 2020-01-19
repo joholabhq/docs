@@ -1,0 +1,62 @@
+# Update package
+echo "============ PROVISIONING: Updating default packages ..."
+sudo yum -y update
+
+# Disable SELinux and firewall
+echo "============ PROVISIONING: Disabling SELinux and firewall ..."
+sudo setenforce 0
+sudo systemctl stop firewalld
+sudo systemctl disable firewalld
+sudo sed -i 's/^SELINUX=.*/SELINUX=disabled/g' /etc/selinux/config
+
+# Install dev tools
+echo "============ PROVISIONING: Installing Development tools ..."
+sudo yum -y groupinstall base "Development tools"
+
+# Install editors and avoid the war
+echo "============ PROVISIONING: Installing Vim and Emacs ..."
+sudo yum -y install ncurses-devel vim-enhanced emacs
+
+# Install Java
+echo "============ PROVISIONING: Installing OpenJDK 8..."
+sudo yum -y install java-1.8.0-openjdk java-1.8.0-openjdk-devel
+sudo echo "export JAVA_HOME=\$(dirname \$(dirname \$(readlink \$(readlink \$(which javac)))))" | sudo tee --append /etc/profile.d/java.sh
+sudo echo "export JAVA_HOME=/usr/default/java" | sudo tee --append /etc/profile.d/java.sh
+sudo echo "export PATH=\$PATH:\$JAVA_HOME/bin"  | sudo tee --append /etc/profile.d/java.sh
+sudo echo "export CLASSPATH=.:\$JAVA_HOME/jre/lib:\$JAVA_HOME/lib:\$JAVA_HOME/lib/tools.jar"  | sudo tee --append /etc/profile.d/java.sh
+
+# Install Elasticsearch
+echo "============ PROVISIONING: Installing Elasticsearch 6.x ..."
+sudo rpm --import https://artifacts.elastic.co/GPG-KEY-elasticsearch
+sudo echo "[elasticsearch-6.x]" | sudo tee /etc/yum.repos.d/elasticsearch.repo
+sudo echo "name=Elasticsearch repository for 6.x packages" | sudo tee --append /etc/yum.repos.d/elasticsearch.repo
+sudo echo "baseurl=https://artifacts.elastic.co/packages/6.x/yum" | sudo tee --append /etc/yum.repos.d/elasticsearch.repo
+sudo echo "gpgcheck=1" | sudo tee --append /etc/yum.repos.d/elasticsearch.repo
+sudo echo "gpgkey=https://artifacts.elastic.co/GPG-KEY-elasticsearch" | sudo tee --append /etc/yum.repos.d/elasticsearch.repo
+sudo echo "enabled=1" | sudo tee --append /etc/yum.repos.d/elasticsearch.repo
+sudo echo "autofresh=1" | sudo tee --append /etc/yum.repos.d/elasticsearch.repo
+sudo echo "type=rpm-md" | sudo tee --append /etc/yum.repos.d/elasticsearch.repo
+
+sudo yum -y install elasticsearch
+sudo echo "network.host: 192.168.33.10" | sudo tee --append /etc/elasticsearch/elasticsearch.yml
+sudo systemctl daemon-reload
+sudo systemctl enable elasticsearch.service
+sudo systemctl start elasticsearch.service
+
+# Install Kibana
+echo "============ PROVISIONING: Installing Kibana 6.x ..."
+sudo echo "[kibana-6.x]" | sudo tee --append /etc/yum.repos.d/kibana.repo
+sudo echo "name=Kibana repository for 6.x packages" | sudo tee --append /etc/yum.repos.d/kibana.repo
+sudo echo "baseurl=https://artifacts.elastic.co/packages/6.x/yum" | sudo tee --append /etc/yum.repos.d/kibana.repo
+sudo echo "gpgcheck=1" | sudo tee --append /etc/yum.repos.d/kibana.repo
+sudo echo "gpgkey=https://artifacts.elastic.co/GPG-KEY-elasticsearch" | sudo tee --append /etc/yum.repos.d/kibana.repo
+sudo echo "enabled=1" | sudo tee --append /etc/yum.repos.d/kibana.repo
+sudo echo "type=rpm-md" | sudo tee --append /etc/yum.repos.d/kibana.repo
+sudo echo "autorefresh=1" | sudo tee --append /etc/yum.repos.d/kibana.repo
+
+sudo yum -y install kibana
+sudo echo "server.host: 192.168.33.10" | sudo tee --append /etc/kibana/kibana.yml
+sudo echo "elasticsearch.hosts: [\"http://192.168.33.10:9200\"]" | sudo tee --append /etc/kibana/kibana.yml
+sudo systemctl daemon-reload
+sudo systemctl enable kibana.service
+sudo systemctl start kibana.service
