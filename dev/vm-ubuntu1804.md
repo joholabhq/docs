@@ -31,7 +31,7 @@ PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>code . # VSCodeの起動
 - VSCodeの上部メニュー > ターミナル > 新しいターミナル`
 - 以下のコマンドを実行
 ```
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant up --provider=virtualbox
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant up
 ```
 
 #### 方法２：Windows PowerShellから起動
@@ -39,20 +39,25 @@ PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant up --provider=vir
 - 仮想マシンを起動したいだけならば、方法２でも十分
 ```
 PS C:\Users\アカウント名> cd C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant up --provider=virtualbox
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\Ubuntu1804>vagrant up
 ...
 ```
 
 ### 仮想マシンへのSSH接続
 
-#### 方法１：`Termius`（おすすめ）
+:bulb: 端末を単体で使用するなら方法１、他のファイルと行き来する必要があるなら方法２（のVSCode）がおすすめ
+
+#### 方法１：`Termius`
 
 - [Termiusをインストール](pc-termius.md)
 - 新しいホストを作成
-  - ホスト名：Ubuntu 18.04 LTS（例）
+  - ホスト名：CentOS 7（例）
   - アドレス：192.168.33.10
   - ユーザ名：vagrant
   - パスワード：vagrant
+  - Keys > + Key > File -> を選択し、以下のファイルを指定
+    - C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7\.vagrant\machine\default\virtualbox\private_key
+    - Save > Save
 - 接続
 
 #### 方法２：`Windows Powershell (x86)`

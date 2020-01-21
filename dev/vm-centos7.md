@@ -45,7 +45,9 @@ PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7>vagrant up
 
 ### 仮想マシンへのSSH接続
 
-#### 方法１：`Termius`（おすすめ）
+:bulb: 端末を単体で使用するなら方法１、他のファイルと行き来する必要があるなら方法２（のVSCode）がおすすめ
+
+#### 方法１：`Termius`
 
 - [Termiusをインストール](pc-termius.md)
 - 新しいホストを作成
@@ -53,6 +55,9 @@ PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7>vagrant up
   - アドレス：192.168.33.10
   - ユーザ名：vagrant
   - パスワード：vagrant
+  - Keys > + Key > File -> を選択し、以下のファイルを指定
+    - C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7\.vagrant\machine\default\virtualbox\private_key
+    - Save > Save
 - 接続
 
 #### 方法２：`Windows Powershell (x86)`
