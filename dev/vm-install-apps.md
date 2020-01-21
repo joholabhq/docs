@@ -1,6 +1,6 @@
 # 仮想マシンにアプリをインストールする方法
 
-[Ubuntu 18.04 LTSを使った仮想マシンの作成](vm-ubuntu1804.md)や[CenOS 7を使った仮想マシンの作成](vm-centos8.md)で生成した仮想マシンの中身は、Linuxですので、それぞれのディストリビューションのやり方に沿ってアプリをインストールすることができます。
+[Ubuntu 18.04 LTSを使った仮想マシンの作成](vm-ubuntu1804.md)や[CentOS 7を使った仮想マシンの作成](vm-centos7.md)で生成した仮想マシンの中身は、Linuxですので、それぞれのディストリビューションのやり方に沿ってアプリをインストールすることができます。
 
 ## 所要時間
 
@@ -10,16 +10,16 @@
 
 - Server World https://www.server-world.info/
   - [Ubuntu 18.04 LTS](https://www.server-world.info/query?os=Ubuntu_18.04)
-  - [CentOS 8](https://www.server-world.info/query?os=CentOS_8)
+  - [CentOS 7](https://www.server-world.info/query?os=CentOS_7)
   
 ## 手順１：仮想マシンにSSH接続した後に、アプリをインストールする
 
-- [Ubuntu 18.04 LTSを使った仮想マシンの作成](vm-ubuntu1804.md)や[CenOS 7を使った仮想マシンの作成](vm-centos8.md)を参考に、仮想マシンにSSH接続する。
+- [Ubuntu 18.04 LTSを使った仮想マシンの作成](vm-ubuntu1804.md)や[CentOS 7を使った仮想マシンの作成](vm-centos7.md)を参考に、仮想マシンにSSH接続する。
 - 参考URLのサイト等を参考に、インストールをおこなう。
 
 ## 手順２：`Vagrant_provision.sh`にインストールするアプリを記述する
 
-- 仮想マシンが生成される（あるいは起動する）段階で一緒にアプリをインストールしたい場合は、[Ubuntu 18.04 LTSを使った仮想マシンの作成](vm-ubuntu1804.md)や[CenOS 7を使った仮想マシンの作成](vm-centos8.md)からリンクされている`Vagrant_provision.sh`にインストールコマンドを追加する。
+- 仮想マシンが生成される（あるいは起動する）段階で一緒にアプリをインストールしたい場合は、[Ubuntu 18.04 LTSを使った仮想マシンの作成](vm-ubuntu1804.md)や[CentOS 7を使った仮想マシンの作成](vm-centos7.md)からリンクされている`Vagrant_provision.sh`にインストールコマンドを追加する。
   - :bulb: アプリのインストールコマンドはディストリビューションによって異なるので注意
   - :warning: 追加インストールコマンドが正しくないと仮想マシンの生成に失敗する場合があるので、コマンドの動作は事前に確認しておくこと
 - Ubuntu 18.4 LTSの例
@@ -51,9 +51,9 @@ echo "============ PROVISIONING: Installing additional applications ..."
 sudo apt install -y tmux
 ```
 
-- CentOS 8の例
+- CentOS 7の例
 
-[Vagrant_provision.sh.centos8](vagrant/Vagrant_provision.sh.centos8)
+[Vagrant_provision.sh.centos7](vagrant/Vagrant_provision.sh.centos7)
 
 ```
 # Update package
@@ -69,12 +69,7 @@ sudo sed -i 's/^SELINUX=.*/SELINUX=disabled/g' /etc/selinux/config
 
 # Install dev tools
 echo "============ PROVISIONING: Installing Development tools ..."
-sudo yum -y groupinstall base "Development tools"
-
-# Install editors and avoid the war
-echo "============ PROVISIONING: Installing Vim and Emacs ..."
-sudo yum -y install ncurses-devel vim-enhanced emacs
-```
+sudo yum -y groupinstall base "Development tools" --setopt=group_package_types=mandatory,default,optional
 
 ↓
 
@@ -92,11 +87,7 @@ sudo sed -i 's/^SELINUX=.*/SELINUX=disabled/g' /etc/selinux/config
 
 # Install dev tools
 echo "============ PROVISIONING: Installing Development tools ..."
-sudo yum -y groupinstall base "Development tools"
-
-# Install editors and avoid the war
-echo "============ PROVISIONING: Installing Vim and Emacs ..."
-sudo yum -y install ncurses-devel vim-enhanced emacs
+sudo yum -y groupinstall base "Development tools" --setopt=group_package_types=mandatory,default,optional
 
 # Install additional apps
 echo "============ PROVISIONING: Installing additional applications ..."

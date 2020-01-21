@@ -11,11 +11,7 @@ sudo sed -i 's/^SELINUX=.*/SELINUX=disabled/g' /etc/selinux/config
 
 # Install dev tools
 echo "============ PROVISIONING: Installing Development tools ..."
-sudo yum -y groupinstall base "Development tools"
-
-# Install editors and avoid the war
-echo "============ PROVISIONING: Installing Vim and Emacs ..."
-sudo yum -y install ncurses-devel vim-enhanced emacs
+sudo yum -y groupinstall base "Development tools" --setopt=group_package_types=mandatory,default,optional
 
 # Install Java
 echo "============ PROVISIONING: Installing OpenJDK 8..."

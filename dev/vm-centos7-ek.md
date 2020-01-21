@@ -13,33 +13,33 @@
 - `Windows Powershell (x86)`を起動し、以下のコマンドを実行
 ```
 PS C:\Users\アカウント名>cd C:\Home\sNNNNNNN\Workspace\Local\Vagrant
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant>mkdir CentOS8-EK; cd CentOS8-EK
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS8-EK>vagrant box add centos/8
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant>mkdir CentOS7-EK; cd CentOS7-EK
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>vagrant box add centos/8
 ...
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS8-EK>vagrant init centos/8
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS8-EK>code . # VSCodeの起動
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>vagrant init centos/8
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>code . # VSCodeの起動
 ```
 - 以下はVSCode上で作業
-  - 生成されている`Vagrantfile`の内容を[Vagrantfile.centos8.ek](vagrant/Vagrantfile.centos8.ek)で上書きする
-  - `Vagrant_provision.sh`というファイルを新規作成し、[Vagrant_provision.sh.centos8.ek](vagrant/Vagrant_provision.sh.centos8.ek)をで上書きする
+  - 生成されている`Vagrantfile`の内容を[Vagrantfile.centos7.ek](vagrant/Vagrantfile.centos7.ek)で上書きする
+  - `Vagrant_provision.sh`というファイルを新規作成し、[Vagrant_provision.sh.centos7.ek](vagrant/Vagrant_provision.sh.centos7.ek)をで上書きする
 
 ### 仮想マシンの起動
 
 #### 方法１：VSCodeから起動（おすすめ）
 
-- VSCodeで`C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS8-EK`フォルダを開く
+- VSCodeで`C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK`フォルダを開く
 - VSCodeの上部メニュー > ターミナル > 新しいターミナル`
 - 以下のコマンドを実行
 ```
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS8-EK>vagrant up --provider=virtualbox
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>vagrant up --provider=virtualbox
 ```
 
 #### 方法２：Windows PowerShellから起動
 
 - 仮想マシンを起動したいだけならば、方法２でも十分
 ```
-PS C:\Users\アカウント名> cd C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS8-EK
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS8-EK>vagrant up --provider=virtualbox
+PS C:\Users\アカウント名> cd C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>vagrant up --provider=virtualbox
 ...
 ```
 
@@ -80,11 +80,11 @@ PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS8-EK>vagrant up --provider=vir
 - 仮想マシンでの作業後にホストマシンでアクセスしたいファイルやデータがある場合は、共有フォルダに保存しましょう。
 - 共有フォルダの位置
   - 仮想マシン：`/vagrant`
-  - ホストマシン：`C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS8-EK`
+  - ホストマシン：`C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK`
 
 ### 仮想マシンの終了
 
 - 仮想マシンを起動した端末で以下のコマンドを実行
 ```
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS8-EK>vagrant halt
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>vagrant halt
 ```
