@@ -56,7 +56,7 @@ PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7>vagrant up
   - ユーザ名：vagrant
   - パスワード：vagrant
   - Keys > + Key > File -> を選択し、以下のファイルを指定
-    - C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7\.vagrant\machine\default\virtualbox\private_key
+    - C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7\\.vagrant\machine\default\virtualbox\private_key
     - Save > Save
 - 接続
 
