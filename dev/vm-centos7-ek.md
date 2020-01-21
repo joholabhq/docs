@@ -31,7 +31,7 @@ PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>code . # VSCodeの起動
 - VSCodeの上部メニュー > ターミナル > 新しいターミナル`
 - 以下のコマンドを実行
 ```
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>vagrant up --provider=virtualbox
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>vagrant up
 ```
 
 #### 方法２：Windows PowerShellから起動
@@ -39,7 +39,7 @@ PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>vagrant up --provider=vir
 - 仮想マシンを起動したいだけならば、方法２でも十分
 ```
 PS C:\Users\アカウント名> cd C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>vagrant up --provider=virtualbox
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>vagrant up
 ...
 ```
 
