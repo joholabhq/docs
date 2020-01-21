@@ -1,4 +1,4 @@
-# CentOS 8 + Elasticsearch + Kibanaの仮想マシンの生成
+# CentOS 7 + Elasticsearch + Kibanaの仮想マシンの生成
 
 :bulb: 仮想マシンは使いたい時に起動し、使い終わったら終了する習慣をつけましょう。
 
