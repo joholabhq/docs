@@ -9,39 +9,15 @@
 ## 手順
 
 ### 仮想マシンの作成
-- [VirtualBoxとVagrantのインストール](pc-virtualbox-vagrant.md)
-- `Windows Powershell (x86)`を起動し、以下のコマンドを実行
-```
-PS C:\Users\アカウント名>cd C:\Home\sNNNNNNN\Workspace\Local\Vagrant
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant>mkdir CentOS7-EK; cd CentOS7-EK
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>vagrant box add centos/8
-...
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>vagrant init centos/8
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>code . # VSCodeの起動
-```
-- 以下はVSCode上で作業
-  - 生成されている`Vagrantfile`の内容を[Vagrantfile.centos7.ek](vagrant/Vagrantfile.centos7.ek)で上書きする
-  - `Vagrant_provision.sh`というファイルを新規作成し、[Vagrant_provision.sh.centos7.ek](vagrant/Vagrant_provision.sh.centos7.ek)をで上書きする
+- [CentOS 7を使った仮想マシンの生成](vm-centos7.md)の手順に従う
+  - ただし、フォルダ名は`CentOS7-EK`に変える
+- `Vagrantfile`と`Vagrant_provision-sh`は以下のファイルを使用する
+  - [Vagrantfile.centos7.ek](vagrant/Vagrantfile.centos7.ek)
+  - [Vagrant_provision.sh.centos7.ek](vagrant/Vagrant_provision.sh.centos7.ek)
 
 ### 仮想マシンの起動
-
-#### 方法１：VSCodeから起動（おすすめ）
-
-- VSCodeで`C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK`フォルダを開く
-- VSCodeの上部メニュー > ターミナル > 新しいターミナル`
-- 以下のコマンドを実行
-```
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>vagrant up
-```
-
-#### 方法２：Windows PowerShellから起動
-
-- 仮想マシンを起動したいだけならば、方法２でも十分
-```
-PS C:\Users\アカウント名> cd C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>vagrant up
-...
-```
+- [CentOS 7を使った仮想マシンの生成](vm-centos7.md)の手順に従う
+  - ただし、フォルダ名は`CentOS7-EK`に読み替える
 
 ### 仮想マシン上のElasticsearchへの接続
 
@@ -75,16 +51,9 @@ PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>vagrant up
 
 
 ### 仮想マシンとのファイル共有
-
-- 仮想マシン内のファイルは仮想マシンを終了するとアクセスできなくなります。
-- 仮想マシンでの作業後にホストマシンでアクセスしたいファイルやデータがある場合は、共有フォルダに保存しましょう。
-- 共有フォルダの位置
-  - 仮想マシン：`/vagrant`
-  - ホストマシン：`C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK`
+- [CentOS 7を使った仮想マシンの生成](vm-centos7.md)の手順に従う
+  - ただし、ホスト側のフォルダ名は`CentOS7-EK`に読み替える
 
 ### 仮想マシンの終了
-
-- 仮想マシンを起動した端末で以下のコマンドを実行
-```
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7-EK>vagrant halt
-```
+- [CentOS 7を使った仮想マシンの生成](vm-centos7.md)の手順に従う
+  - ただし、ホスト側のフォルダ名は`CentOS7-EK`に読み替える
