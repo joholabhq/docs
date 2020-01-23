@@ -11,7 +11,7 @@
 ### 仮想マシンの作成
 - [CentOS 7を使った仮想マシンの生成](vm-centos7.md)の手順に従う
   - ただし、フォルダ名は`CentOS7-EK`に変える
-- `Vagrantfile`と`Vagrant_provisiosh`は以下のファイルを使用する
+- `Vagrantfile`と`Vagrant_provisio.sh`は以下のファイルを使用する
   - [Vagrantfile.centos7.ek](vagrant/Vagrantfile.centos7.ek)
   - [Vagrant_provision.sh.centos7.ek](vagrant/Vagrant_provision.sh.centos7.ek)
 
