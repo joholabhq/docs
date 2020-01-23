@@ -5,12 +5,12 @@
 - [Vagrantfile.ubuntu1804](Vagrantfile.ubuntu1804)
 - [Vagrant_provision.sh.ubuntu1804](Vagrant_provision.sh.ubuntu1804)
 
-## CentOS 8
+## CentOS 7
 
-- [Vagrantfile.centos8](Vagrantfile.centos8)
-- [Vagrant_provision.sh.centos8](Vagrant_provision.sh.centos8)
+- [Vagrantfile.centos7](Vagrantfile.centos7)
+- [Vagrant_provision.sh.centos7](Vagrant_provision.sh.centos7)
 
-## CentOS 8 + Elasticsearch + Kibana
+## CentOS 7 + Elasticsearch + Kibana
 
-- [Vagrantfile.centos8.ek](Vagrantfile.centos8.ek)
-- [Vagrant_provision.sh.centos8.ek](Vagrant_provision.sh.centos8.ek)
+- [Vagrantfile.centos7.ek](Vagrantfile.centos7.ek)
+- [Vagrant_provision.sh.centos7.ek](Vagrant_provision.sh.centos7.ek)
