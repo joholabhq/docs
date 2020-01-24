@@ -8,7 +8,7 @@
 
 :bulb: ダウンロード → 実行でインストールできるアプリに関しては、リンクのみ
 
-- [Synology Drive](pc-synologydrive.md) ホームフォルダ同期
+- [Synology Drive](pc-synologydrive.md) ホームフォルダ同期・研究室データ共有
 - [Microsoft Office](pc-office.md) オフィス
 - [Visual Studio Code](pc-vscode.md) 統合環境
 - [Git for Windows](pc-git.md) GitLab/GitHub
