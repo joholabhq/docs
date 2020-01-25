@@ -2,8 +2,6 @@
 
 :warning: 指導教員から指示があった場合のみ本手順の作業を行ってください。
 
-Windows10のインストールとEnterprise版へのアップグレード
-
 ## 参考URL
 
 - http://lifekeynotes.com/2018/08/01/hot-to-solve-your-thinkpad-usb-boot-problems/
@@ -11,10 +9,9 @@ Windows10のインストールとEnterprise版へのアップグレード
 
 ## 所要時間
 
-- 手順1: 1時間
-- 手順2: 1時間
+- 1時間
 
-## 手順1: Windows10のインストール
+## 手順: Windows10のインストール
 
 - インストール用USBディスクをPCに接続して、PCの電源を入れて、`Lenovo`のロゴが表示されたらすぐに`Enter`キーを押す
 - 青い画面が表示されたら`F1`キーを押す
@@ -23,8 +20,8 @@ Windows10のインストールとEnterprise版へのアップグレード
   - 再起動
 - `Lenovo`のロゴが表示されたらすぐに`F12`キーを押す
 - ブート選択画面が表示されたらUSBディスクを選択
-- インストール画面が表示されたら、[PCの初期設定](pc-initial-setup.md)の手順1を参考にインストールを行う
-- デスクトップ画面が表示されたら、手順2に移る
+- インストール画面が表示されたら、[PCの初期設定](pc-initial-setup.md)へ
+
 
 ### USBから起動できない場合
 
@@ -33,12 +30,4 @@ Windows10のインストールとEnterprise版へのアップグレード
   - UEFI/Legacy Boot Priority > Legacy First
   - `F10` > Yes
   
-## 手順2: Enterprise版へのアップグレード
 
-- 指導教員を呼ぶ
-- [ソフトウェア配布管理システム](https://ds.cc.tsukuba.ac.jp/download/)のトップページにある「Windows 10へのアップグレードに関して」からリンクされているPDFファイルを開く
-- PDF内の(zip 版)日本語版 64Bit 版のリンクを選択 > ダウンロード（要：指導教員）
-- ダウンロードが完了したら、zipファイルを右クリック > ここに展開 > `setup.exe`を実行
-- イメージの選択：Windows 10 Enterprise > 次へ
-- インストール画面が表示されたら、[PCの初期設定](pc-initial-setup.md)の手順1を参考にインストールを行う
-- インストールが完了したら、↑のPDFファイルに戻り、(4)以降のライセンス認証を行う（要：指導教員）
