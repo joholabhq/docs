@@ -1,0 +1,5 @@
+[discrete]
+[[toc:abstract]]
+== 抄録
+
+ここに論文の抄録を書く。

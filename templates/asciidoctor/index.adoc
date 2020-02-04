@@ -1,0 +1,53 @@
+= Thesis Title 論文題目
+// Settings to change 変更する設定
+:author: Name 著者名
+:revnumber: 1.0
+:revdate: 2020-01-01
+:revremark: A brief note about this revision. 版の簡単な説明
+// Comment out for English 英語論文の場合はコメントアウト
+:lang: ja
+:toc-title: 目次
+:chapter-label:
+:figure-caption: 図
+:table-caption: 表
+:bibliography-caption: 引用文献
+:appendix-caption: 付録
+// Settings to keep 変更しない設定
+:doctype: book
+:pdf-stylesdir: themes
+:pdf-style: custom
+:imagesdir: images
+:toc: macro
+:toclevels: 3
+:source-highlighter: rouge
+:stem: latexmath
+
+// // Abstract 抄録
+include::abstract.adoc[]
+
+// Table of Contents 目次
+toc::[]
+
+// Start section number
+:sectnums:
+
+// Introduction 序論
+include::introduction.adoc[]
+
+// Methods 方法
+// include::methods.adoc[]
+
+// Results 結果
+// include::results.adoc[]
+
+// Discussion 議論
+// include::discussion.adoc[]
+
+// Conclusion 結論
+// include::conclusion.adoc[]
+
+// Reference 引用文献
+include::reference.adoc[]
+
+// Appendix 付録
+// include::appendix.adoc[]

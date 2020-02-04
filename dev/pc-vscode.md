@@ -37,5 +37,14 @@
 - Word Count (by Microsoft)
 - Character Count (by Adam Stevenson)
 
+### Markdown
 
-- Markdown
+- Markdown PDF (by yzane)
+
+### AsciiDoctor
+
+- AsciiDoc (by Joao Pinto)
+
+### LaTeX
+
+- LaTeX Workshop (by James Yu)
