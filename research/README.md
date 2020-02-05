@@ -17,7 +17,7 @@
 
 - 研究発表の種別と目的
 - 研究発表内容のアウトライン作成
-- [Marpを使った発表スライドの作成](presentaion-with-marp.md)
+- [Marpを使った発表スライドの作成](presentation-with-marp.md)
 - 研究発表の基本スキル
 - 研究発表の練習方法
 
