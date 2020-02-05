@@ -41,6 +41,10 @@
 
 - Markdown PDF (by yzane)
 
+### Marp
+
+- Marp for VS Code (by Marp team)
+
 ### AsciiDoctor
 
 - AsciiDoc (by Joao Pinto)
