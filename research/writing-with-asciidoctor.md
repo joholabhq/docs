@@ -14,7 +14,7 @@ PS C:\Users\アカウント名>gem install asciidoctor
 
 - [ファイルやデータの整理](files-and-data.md)を参考に、`Thesis`フォルダを作成
 - `Thesis`フォルダの下に、`ver1`フォルダを作成
-- [卒論・修論用AsciiDoctorテンプレート](../templates/asciidoctor/README.md)からファイルをコピーして、`ver1`に保存
+- [卒論・修論用AsciiDoctorテンプレート](../templates/asciidoctor-thesis)からファイルをコピーして、`ver1`に保存
 - 以下のようなファイル構成になっていることを確認
 
 ### ファイル構成例
