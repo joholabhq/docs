@@ -1,0 +1,4 @@
+[bibliography]
+== References
+- [[[Hunt:99]]] Andy Hunt & Dave Thomas. The Pragmatic Programmer: From Journeyman to Master. Addison-Wesley. 1999.
+- [[[Allen:08]]] Dan Allen. Seam in Action. Manning Publications.2008.

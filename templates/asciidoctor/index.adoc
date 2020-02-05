@@ -1,0 +1,47 @@
+= Your Thesis Title
+// Settings to change
+:author: Your Name
+:revnumber: 1.0
+:revdate: 2020-01-01
+:revremark: A brief note about this revision.
+// Settings to keep
+:lang: en
+:bibliography-caption: References
+:doctype: book
+:pdf-stylesdir: themes
+:pdf-style: custom
+:imagesdir: images
+:toc: macro
+:toclevels: 3
+:source-highlighter: rouge
+:stem: latexmath
+
+// // Abstract
+include::abstract.adoc[]
+
+// Table of Contents
+toc::[]
+
+// Start section number
+:sectnums:
+
+// Introduction
+include::introduction.adoc[]
+
+// Methods
+// include::methods.adoc[]
+
+// Results
+// include::results.adoc[]
+
+// Discussion
+// include::discussion.adoc[]
+
+// Conclusion
+// include::conclusion.adoc[]
+
+// Reference
+include::reference.adoc[]
+
+// Appendix
+// include::appendix.adoc[]

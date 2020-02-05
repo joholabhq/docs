@@ -1,0 +1,20 @@
+[[toc:introduction]]
+== Introduction
+
+This is an introduction. You can see <<code:sample>> below. The code was written by <<Hunt:99>> and <<Allen:08>>. As discussed in <<toc:introduction,Introduction>>, ...
+
+=== Code
+
+[[code:sample]]
+[source,ruby]  
+----
+require 'sinatra'
+
+get '/hi' do
+  "Hello World!"
+end
+----
+
+=== Math
+
+Asciidoc does not support math equations in PDF format. You should use Marp to create equations and save it as an image and import in Asciidoc.
