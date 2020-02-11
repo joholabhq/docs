@@ -7,7 +7,7 @@
 - [Rubyをインストール](../dev/pc-ruby.md)する
 -  `Windows Powershell (x86)`を起動し、以下のコマンドを実行
 ```
-PS C:\Users\アカウント名>gem install asciidoctor
+PS C:\Users\アカウント名>gem install asciidoctor asciidoctor-diagram asciidoctor-pdf-cjk
 ```
 
 ## 作業用フォルダの作成
