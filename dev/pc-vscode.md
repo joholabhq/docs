@@ -32,6 +32,10 @@
 
 - Japanese Language Pack for Visual Studio Code
 
+### 印刷
+
+- PrintCode (by nobuhito)
+
 ### 語数・字数表示（Markdownファイル）
 
 - Word Count (by Microsoft)
