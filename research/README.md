@@ -10,13 +10,18 @@
 
 ### 共通
 
-- 時間管理について
+- 時間の確保について
 
 ### 学位別
 
 - [博士後期課程](time-management/phd.md)
 - 博士前期課程
 - 学士課程（学類生）
+
+## タスク管理
+
+- [WBS（Work Breakdown Structure）](task-management/wbs.md)
+- タスク管理ツール
 
 ## 思考の整理と発想
 
