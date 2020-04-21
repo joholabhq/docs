@@ -2,7 +2,7 @@
 
 ## 博士後期課程の3年間
 
-![](gantt-phd.png)
+![](gantt-phd.PNG)
 
 ## 3年間の考え方
 
