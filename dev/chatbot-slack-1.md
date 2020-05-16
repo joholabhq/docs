@@ -8,7 +8,7 @@
 
 - [Pythonのインストール](pc-python.md)
 - [Slackのインストールと研究室ワークスペースへの参加](pc-slack.md)
-- [grokのインストール](pc-ngrok.md)
+- [ngrokのインストール](pc-ngrok.md)
 
 ## 新規アプリの作成
 
@@ -76,7 +76,7 @@ PS C:\Users\アカウント名 ... chatbot> $env:SLACK_BOT_TOKEN='<Your Bot User
 ```
 PS C:\Users\アカウント名 ... chatbot> py hello-world.py
 ```
-- Slackアプリの自分用チャネルに`Hello, world!'というメッセージが表示されたら接続成功
+- Slackアプリの自分用チャネルに「Hello, world!」というメッセージが表示されたら接続成功
 
 ## 次のステップ
 
