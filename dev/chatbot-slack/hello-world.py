@@ -6,7 +6,7 @@ from slack.errors import SlackApiError
 slack_web_client = WebClient(token=os.environ['SLACK_BOT_TOKEN'])
 
 # Channel and message
-my_channel = '#johohideogb-dev'
+my_channel = '<your chatbot channel>'
 my_message = 'Hello world!'
 
 try:
