@@ -72,7 +72,6 @@ PS C:\Users\アカウント名 ... chatbot> py goodbye-hello.py
 
 - VSCodeのターミナルで稼働している`goodbye-hello.py`を`Ctrl+C`で終了
 - `Windows PowerShell`で稼働している`ngrok`を`Ctrl+C`で終了（2回押さないと終了しないかも）
-)
 
 ## 次のステップ
 

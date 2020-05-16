@@ -14,9 +14,9 @@
 ```
 PS C:\Users\アカウント名>cd C:\Home\sNNNNNNN\Workspace\Local\Vagrant
 PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant>mkdir CentOS7; cd CentOS7
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7>vagrant box add centos/8
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7>vagrant box add centos/7
 ...
-PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7>vagrant init centos/8
+PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7>vagrant init centos/7
 PS C:\Home\sNNNNNNN\Workspace\Local\Vagrant\CentOS7>code . # VSCodeの起動
 ```
 - 以下はVSCode上で作業

@@ -70,6 +70,7 @@ sudo sed -i 's/^SELINUX=.*/SELINUX=disabled/g' /etc/selinux/config
 # Install dev tools
 echo "============ PROVISIONING: Installing Development tools ..."
 sudo yum -y groupinstall base "Development tools" --setopt=group_package_types=mandatory,default,optional
+```
 
 ↓
 
