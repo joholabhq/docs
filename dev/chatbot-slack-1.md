@@ -41,27 +41,27 @@
 - アプリ画面の左メニュー > `OAuth & Permissions`を選択
 - `OAuth Tokens & Redirect URLs` > `Tokens for Your Workspace` > `Bot User OAuth Access Token`
 
-## アプリのチャネルへの追加
+## ボットのチャネルへの追加
 
 - Slackの自分専用チャネルにいく
 - 上部リンクから「アプリを追加する」を選択
 - 一覧から「Simple Bot」を選択
 
-## Python Slack APIの取得
+## Python Slack APIのインストール
 
 - [個人フォルダ](../research/files-and-data.md)の`Development`に「chatbot」というフォルダを作成
     - 以下このフォルダ内で作業することを想定
 - VSCodeでchatbotフォルダを開く
-- [requirements-1.txt](chatbot-slack/requirements-1.txt)というファイルを新規作成
+- [requirements.txt](chatbot-slack/requirements.txt)というファイルを新規作成
 - VSCodeでターミナルを開き、以下のコマンドを実行
 ```
-PS C:\Users\アカウント名 ... chatbot> py -m pip install -r .\requirements-1.txt
+PS C:\Users\アカウント名 ... chatbot> py -m pip install -r .\requirements.txt
 ```
 
 ## 接続テスト
 
 - [hello-world.py](chatbot-slack/hello-world.py)を新規作成
-    - 10行目付近の以下の行の`<your chatbot channel>`を、自分専用のチャネル名で置き換える
+    - 9行目付近の以下の行の`<your chatbot channel>`を、自分専用のチャネル名で置き換える
     ```
     my_channel = '<your chatbot channel>' #my-channel-name
     ```
@@ -78,6 +78,9 @@ PS C:\Users\アカウント名 ... chatbot> py hello-world.py
 ```
 - Slackアプリの自分用チャネルに`Hello, world!'というメッセージが表示されたら接続成功
 
+## 次のステップ
+
+- [# チャットボットの開発（Slack編）#2](chatbot-slack-2.md)へ続く
 
 ## 参考URL
 

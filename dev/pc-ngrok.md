@@ -33,6 +33,11 @@ Forwarding                    https://4cb4c535.ngrok.io -> http://localhost:3000
 - ポート番号は変更可
 - 本セッションの有効時間は、約8時間
 
+## 受信ログの詳細
+
+- ngrokサーバの受信ログ内容は、以下のURLから閲覧できます
+    - http://localhost:4040/inspect/http
+    
 ## :warning: 有効時間
 
 - `ngrok`を起動した際に作成されるセッションには有効期限があります。
@@ -41,6 +46,7 @@ Forwarding                    https://4cb4c535.ngrok.io -> http://localhost:3000
 ## `ngrok`の終了
 
 - ステータス画面で、`Ctrl+C`
+
 
 ## 参考URL
 
