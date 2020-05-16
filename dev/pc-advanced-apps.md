@@ -8,8 +8,7 @@
 
 ## 手順
 
-
-- [Anaconda](pc-anaconda.md) Python実行環境（含 Jupyter Lab）
+- [Python](pc-python.md ) + [JupyerLab](pc-jupyterlab.md) Python実行環境
 - [Hugo](pc-hugo.md) 静的サイト生成
 - [R + RStudio](pc-r-rstudio.md) 統計処理
 - [Ruby](pc-ruby.md) Ruby実行環境

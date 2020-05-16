@@ -8,6 +8,7 @@
 * [PCの詳細設定](pc-advanced-settings.md)
 * [必須アプリのインストール](pc-essential-apps.md)
 * [個別アプリのインストール](pc-advanced-apps.md)
+* [アプリのアンインストール（削除）](pc-uninstall.md)
 * :warning: [PCの初期化](pc-reset.md)
 * :warning: [Windows10のインストール](pc-win10.md)
 
@@ -17,8 +18,8 @@
 
 ## PythonとJupyter Lab
 
-* [Anacondaのインストール](pc-anaconda.md)
-* [Jupyter Labの使い方](python-jupyterlab.md)
+* [Pythonのインストール](pc-python.md)
+* [Jupyter Labの使い方](pc-jupyterlab.md)
 
 ## 仮想マシン
 
