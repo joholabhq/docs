@@ -32,3 +32,11 @@
 * [仮想マシンにアプリをインストールする方法](vm-install-apps.md)
 
 
+## チャットボット
+
+[Slack](https://www.slack.com/)を使った簡単なチャットボットの開発。開発言語はPythonを使います。
+
+- [Pythonのインストール](pc-python.md)
+- [Slackのインストールと研究室ワークスペースへの参加](pc-slack.md)
+- [grokのインストール](pc-ngrok.md)
+- チャットボットプログラムの開発
