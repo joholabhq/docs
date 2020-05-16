@@ -39,4 +39,4 @@
 - [Pythonのインストール](pc-python.md)
 - [Slackのインストールと研究室ワークスペースへの参加](pc-slack.md)
 - [grokのインストール](pc-ngrok.md)
-- チャットボットプログラムの開発
+- [チャットボットの開発](chatbot-slack-1.md)
