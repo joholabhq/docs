@@ -20,7 +20,14 @@ PS C:\Users\アカウント名\SynologyDrive\MyFolders\Development\ngrok > .\ngr
 ```
 - 以下のようなステータス画面が表示される
 ```
-ngrok by @inconshreveable                                                                               (Ctrl+C to quit)                                                                                                                        Session Status                online                                                                                    Session Expires               7 hours, 59 minutes                                                                       Version                       2.3.35                                                                                    Region                        United States (us)                                                                        Web Interface                 http://127.0.0.1:4040                                                                     Forwarding                    http://4cb4c535.ngrok.io -> http://localhost:3000                                         Forwarding                    https://4cb4c535.ngrok.io -> http://localhost:3000    
+ngrok by @inconshreveable     (Ctrl+C to quit)
+Session Status                online
+Session Expires               7 hours, 59 minutes
+Version                       2.3.35
+Region                        United States (us)
+Web Interface                 http://127.0.0.1:4040
+Forwarding                    http://4cb4c535.ngrok.io -> http://localhost:3000
+Forwarding                    https://4cb4c535.ngrok.io -> http://localhost:3000    
 ```
 - ウェブ上の`https://4cb4c535.ngrok.io`に送られたリクエストは、手元のPCで起動するアプリに`3000`番ポートを経由して、送信されてくる
 - ポート番号は変更可
