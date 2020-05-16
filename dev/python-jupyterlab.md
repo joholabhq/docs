@@ -1,5 +1,7 @@
 # JupyterLabの使い方
 
+:warning: 2020年5月現在では、本手順を推奨していませんので、[こちら](pc-jupyterlab.md)の手順を参照してください。
+
 ## 起動
 
 - [Anacondaをインストールする](pc-anaconda.md)
